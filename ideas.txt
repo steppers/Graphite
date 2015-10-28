@@ -1,0 +1,31 @@
+SSim
+
+3D Space Survival
+Planetary outposts w/ random interiors
+Procedural Space stations
+Strategic play style
+start with small procedural ship and upgrades are possible. Larger blueprints can be obtained to build larger ships with additional crew/droids
+Trade replaces any official currency.
+Supplies can be traded for by supply and demand.
+Fuel, Oxygen, Materials, Weapons, Food, Water etc.
+Planets can be exploited but can be dangerous. Gases, heat, acid, radiation.
+Extraction of minerals and metal from ore can be done at certain outposts or using a refinery on a sufficiently large ship.
+Ship interior can be used.
+Autopilot for long journey.
+Stasis can be interrupted by the auto pilot on warnings.
+Ship computer can be programmed and entirely edited. (Recovery can be used)
+Damage model for ship components. Need repairing by the player or crew.
+Modules can be damaged beyond repair or lost entirely.
+Computer User manual for each terminal.
+Pirates
+Freighters
+All ship parts can be upgraded or added to.
+Short range scanners can detect weak hull areas of enemies.
+Power generators require specific fuels Uranium, Hydrogen, Exotic matter etc.
+Spacewalks can be made to complete external repairs or EVA.
+A spacesuit must be worn in hostile environments.
+The player must build airlock setups and connect devices to the computer system to be controlled remotely.
+Hangars can be made to hold AI/player allies.
+Planets are procedural and hold abandoned outposts, alien life.
+Planets have various atmospheric ccompositions of which can be gathered and used to produce fuel or materials. Satellites can be deployed to act autonomously with their programmed computers to gather gases or mine etc.
+All systems can be modified to produce a higher yeild, however some may become unstable and prone to failure if configured incorrectly (reactor).
