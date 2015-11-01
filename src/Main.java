@@ -1,4 +1,4 @@
-import Core.Engine;
+import Engine.Engine;
 
 /**
  * Created by steppers on 28/10/15.
@@ -6,8 +6,8 @@ import Core.Engine;
 public class Main {
 
     public static void main(String[] args) {
-        Engine e = new Engine();
-        e.start();
+        Engine eng = new Engine();
+        eng.start();
     }
 
 }
