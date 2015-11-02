@@ -1,5 +1,6 @@
 package Engine.Framework;
 
+import Engine.Managers.StateManager;
 import Engine.Managers.TaskManager.Task;
 import Engine.Managers.TaskManager.TaskManager;
 
@@ -16,6 +17,7 @@ public class Scheduler {
     private int frameLimit = 0;
     private long frameTime = 0;
     private long currentTime, lastTime;
+    private double delta;
 
     public Scheduler()
     {
@@ -40,10 +42,21 @@ public class Scheduler {
     {
         currentTime = System.currentTimeMillis();
 
+        try {
+            if(delta < frameTime)
+                Thread.sleep((long)(frameTime - delta));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        lastTime = System.currentTimeMillis();
+
+        delta = (currentTime - lastTime)/1000L;
+        StateManager.getInstance().setDelta(delta);
 
         tm.submitTasks(tasks);
-        tasks.clear();
 
+        tasks.clear();
     }
 
     public void destroy()
