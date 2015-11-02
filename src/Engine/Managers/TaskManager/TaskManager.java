@@ -14,17 +14,26 @@ public class TaskManager extends Manager {
     private static TaskManager instance = new TaskManager();
     public static TaskManager getInstance(){return instance;};
 
-    private Thread[] threads;
+    private TaskThread[] threads;
     private BlockingQueue<Task> tasks;
 
     public TaskManager()
     {
-        threads = new Thread[Runtime.getRuntime().availableProcessors()];
+        threads = new TaskThread[Runtime.getRuntime().availableProcessors()];
         tasks = new LinkedBlockingQueue<>();
         for(int i = 0; i < threads.length; i++)
         {
             threads[i] = new TaskThread(i);
             threads[i].start();
+        }
+    }
+
+    public void waitForTaskCompletion()
+    {
+        while(!tasks.isEmpty()){}
+        for(TaskThread thread : threads)
+        {
+            while(thread.t != null){}
         }
     }
 
@@ -48,6 +57,7 @@ public class TaskManager extends Manager {
     public class TaskThread extends Thread
     {
         private int id;
+        public Task t = null;
 
         public TaskThread(int id)
         {
@@ -59,10 +69,9 @@ public class TaskManager extends Manager {
             while(true)
             {
                 try {
-                    Task t = tasks.take();
-                    if(t == null)
-                        break;
+                    t = tasks.take();
                     t.execute(this);
+                    t = null;
                 } catch (InterruptedException e) {
                     break;
                 }

@@ -41,22 +41,18 @@ public class Scheduler {
     public void executeTasks()
     {
         currentTime = System.currentTimeMillis();
-
-        try {
-            if(delta < frameTime)
-                Thread.sleep((long)(frameTime - delta));
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        lastTime = System.currentTimeMillis();
-
         delta = (currentTime - lastTime)/1000L;
+        lastTime = currentTime;
         StateManager.getInstance().setDelta(delta);
 
         tm.submitTasks(tasks);
 
         tasks.clear();
+    }
+
+    public void waitForCompletion()
+    {
+        tm.waitForTaskCompletion();
     }
 
     public void destroy()
