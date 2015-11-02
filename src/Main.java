@@ -7,7 +7,12 @@ public class Main {
 
     public static void main(String[] args) {
         Engine eng = new Engine();
+
+        //Add systems here
+        //eng.addSystem();
+
         eng.start();
+        eng.dispose();
     }
 
 }

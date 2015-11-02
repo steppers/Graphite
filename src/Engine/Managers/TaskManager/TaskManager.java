@@ -2,7 +2,6 @@ package Engine.Managers.TaskManager;
 
 import Engine.Managers.Manager;
 
-import java.lang.System;
 import java.util.ArrayList;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -12,8 +11,11 @@ import java.util.concurrent.LinkedBlockingQueue;
  */
 public class TaskManager extends Manager {
 
-    Thread[] threads;
-    BlockingQueue<Task> tasks;
+    private static TaskManager instance = new TaskManager();
+    public static TaskManager getInstance(){return instance;};
+
+    private Thread[] threads;
+    private BlockingQueue<Task> tasks;
 
     public TaskManager()
     {
@@ -32,11 +34,6 @@ public class TaskManager extends Manager {
         {
             this.tasks.add(t);
         }
-    }
-
-    public void submitTask(Task task)
-    {
-        tasks.add(task);
     }
 
     public void stop()
