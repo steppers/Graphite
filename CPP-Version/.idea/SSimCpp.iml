@@ -95,69 +95,55 @@
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
-          <root url="file://C:/MinGW/include" />
-          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include" />
-          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include-fixed" />
-          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include/c++" />
-          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include/objc" />
-          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include/ssp" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Debug/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/MinSizeRel/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/RelWithDebInfo/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Release/libs/glfw-3.1.2/src" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include-fixed" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include/objc" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include/ssp" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/x86_64-w64-mingw32/include" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src" />
         </CLASSES>
         <SOURCES>
-          <root url="file://C:/MinGW/include" />
-          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include" />
-          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include-fixed" />
-          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include/c++" />
-          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include/objc" />
-          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include/ssp" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Debug/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/MinSizeRel/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/RelWithDebInfo/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Release/libs/glfw-3.1.2/src" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include-fixed" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include/objc" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include/ssp" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/x86_64-w64-mingw32/include" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src" />
         </SOURCES>
         <excluded>
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Debug/libs/glfw-3.1.2/src/glfw_config.h" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/MinSizeRel/libs/glfw-3.1.2/src/glfw_config.h" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/RelWithDebInfo/libs/glfw-3.1.2/src/glfw_config.h" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Release/libs/glfw-3.1.2/src/glfw_config.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/glad/glad.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/glad/glad.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/glad.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/glad.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/wgl_context.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_init.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/winmm_joystick.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw_config.h.in" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3Config.cmake.in" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/context.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_monitor.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/input.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/internal.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/window.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_window.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_platform.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/monitor.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_tls.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_time.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/monitor.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/window.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_tls.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/winmm_joystick.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/winmm_joystick.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_init.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/wgl_context.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/wgl_context.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/internal.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/input.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_monitor.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3Config.cmake.in" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/context.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_window.c" />
         </excluded>
       </library>
     </orderEntry>

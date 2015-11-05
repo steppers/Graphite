@@ -17,19 +17,19 @@ void Engine::start() {
 }
 
 void Engine::stop() {
-    //_mutexRunning.lock();
+    _mutexRunning.lock();
         _running = false;
-    //_mutexRunning.unlock();
+    _mutexRunning.unlock();
 }
 
 void Engine::loop() {
     while(true)
     {
-        //_mutexRunning.lock();
+        _mutexRunning.lock();
         if(!_running){
-            //_mutexRunning.unlock();
+            _mutexRunning.unlock();
             break;
-        }//_mutexRunning.unlock();
+        }_mutexRunning.unlock();
 
         for(System* s : _systems)
             _scheduler.submitTask((Task*)s);
