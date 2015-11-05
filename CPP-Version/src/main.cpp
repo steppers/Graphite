@@ -17,7 +17,8 @@ public:
         {
             c = (0.5*sin(i))+0.5;
             glClearColor(c, 0, 0, 1);
-            i += 0.07;
+            i += 0.01;
+            SThread::sleep(2);
             w->update();
             if(w->getInput()->isKeyDown(GLFW_KEY_ESCAPE) | w->isCloseRequested())
                 break;

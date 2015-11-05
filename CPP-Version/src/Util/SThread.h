@@ -12,7 +12,7 @@ class SThread;
 
 class SRunnable {
 public:
-    virtual void run(SThread* thread);
+    virtual void run(SThread* thread) = 0;
 };
 
 class SThread {
