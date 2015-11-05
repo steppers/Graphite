@@ -67,7 +67,7 @@ static void usage(void)
 
 int main(int argc, char** argv)
 {
-    int ch, samples = 4;
+    int ch, samples = 8;
     GLFWwindow* window;
 
     while ((ch = getopt(argc, argv, "hs:")) != -1)
@@ -140,14 +140,14 @@ int main(int argc, char** argv)
 
         glLoadIdentity();
         glTranslatef(0.25f, 0.25f, 0.f);
-        glRotatef(time, 0.f, 0.f, 1.f);
+        glRotatef(time*8, 0.f, 0.f, 1.f);
 
         glDisable(GL_MULTISAMPLE_ARB);
         glRectf(-0.15f, -0.15f, 0.15f, 0.15f);
 
         glLoadIdentity();
         glTranslatef(0.75f, 0.25f, 0.f);
-        glRotatef(time, 0.f, 0.f, 1.f);
+        glRotatef(time*8, 0.f, 0.f, 1.f);
 
         glEnable(GL_MULTISAMPLE_ARB);
         glRectf(-0.15f, -0.15f, 0.15f, 0.15f);

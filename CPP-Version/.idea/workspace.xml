@@ -4,11 +4,11 @@
     <generated>
       <config projectName="SSimCpp" targetName="threads" />
       <config projectName="SSimCpp" targetName="tearing" />
+      <config projectName="SSimCpp" targetName="sharing" />
       <config projectName="SSimCpp" targetName="gamma" />
       <config projectName="SSimCpp" targetName="clipboard" />
       <config projectName="SSimCpp" targetName="uninstall" />
       <config projectName="SSimCpp" targetName="simple" />
-      <config projectName="SSimCpp" targetName="monitors" />
       <config projectName="SSimCpp" targetName="glfwinfo" />
       <config projectName="SSimCpp" targetName="heightmap" />
       <config projectName="SSimCpp" targetName="wave" />
@@ -16,7 +16,7 @@
       <config projectName="SSimCpp" targetName="reopen" />
       <config projectName="SSimCpp" targetName="particles" />
       <config projectName="SSimCpp" targetName="gears" />
-      <config projectName="SSimCpp" targetName="sharing" />
+      <config projectName="SSimCpp" targetName="monitors" />
       <config projectName="SSimCpp" targetName="splitview" />
       <config projectName="SSimCpp" targetName="SSimCpp" />
       <config projectName="SSimCpp" targetName="joysticks" />
@@ -37,23 +37,298 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c468c19-c7f1-48e3-af6d-622fb1c59836" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Util/BlockingQueue.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/Manager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Util/SThread.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/StateManager.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/StateManager.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Engine.cpp" afterPath="$PROJECT_DIR$/src/Engine/Engine.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Engine.h" afterPath="$PROJECT_DIR$/src/Engine/Engine.h" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\CMake\MacOSXBundleInfo.plist.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\CMake\amd64-mingw32msvc.cmake" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\CMake\i586-mingw32msvc.cmake" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\CMake\i686-pc-mingw32.cmake" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\CMake\i686-w64-mingw32.cmake" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\CMake\modules\FindEGL.cmake" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\CMake\modules\FindGLESv1.cmake" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\CMake\modules\FindGLESv2.cmake" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\CMake\modules\FindMir.cmake" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\CMake\modules\FindWayland.cmake" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\CMake\modules\FindXKBCommon.cmake" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\CMake\x86_64-w64-mingw32.cmake" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\Doxyfile.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\DoxygenLayout.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\build.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\compat.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\compile.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\context.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\extra.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\extra.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\footer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\header.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\annotated.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\bc_s.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\bdwn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\bug.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\build.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\build_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\classes.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\closed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\compat.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\compat_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\compile.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\compile_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\context.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\context_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\dir_1f77a3d08e1c0316fce488cb6c92b6b9.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\dir_245a62bb4fd08af31b5a80f0986d2d96.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\dir_7c13f3ba402334eef4501b19a9dd996c.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\doxygen.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\doxygen.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\dynsections.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\extra.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\files.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2blank.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2doc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2folderclosed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2folderopen.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2lastnode.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2link.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2mlastnode.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2mnode.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2node.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2plastnode.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2pnode.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2splitbar.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\ftv2vertline.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\functions.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\functions_vars.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\glfw3_8h.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\glfw3_8h_source.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\glfw3native_8h.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\glfw3native_8h_source.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_b.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_c.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_d.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_b.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_c.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_d.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_f.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_g.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_h.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_i.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_j.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_k.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_l.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_m.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_n.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_o.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_p.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_r.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_s.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_defs_v.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_e.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_f.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_func.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_g.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_h.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_i.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_j.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_k.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_l.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_m.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_n.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_o.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_p.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_r.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_s.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_t.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_type.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_v.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\globals_w.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\group__buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\group__context.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\group__errors.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\group__init.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\group__input.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\group__joysticks.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\group__keys.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\group__mods.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\group__monitor.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\group__native.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\group__shapes.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\group__window.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\input.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\input_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\intro.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\intro_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\main_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\modules.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\monitor.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\monitor_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\moving.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\moving_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\nav_f.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\nav_g.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\nav_h.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\news.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\news_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\open.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\pages.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\quick.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\quick_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\rift.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\rift_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_0.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_0.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_4.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_4.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_5.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_6.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_6.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_7.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_7.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_8.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_8.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_9.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_9.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_a.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_a.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_b.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_b.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_c.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_c.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_d.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_d.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_e.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_e.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_f.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\all_f.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\classes_0.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\classes_0.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\defines_0.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\defines_0.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_0.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_0.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_4.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_4.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_5.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_6.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_6.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_7.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_7.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_8.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\files_8.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\functions_0.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\functions_0.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_0.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_0.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_4.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_4.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_5.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_6.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_6.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_7.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_7.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_8.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\groups_8.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\mag_sel.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\nomatches.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_0.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_0.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_4.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_4.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_5.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_6.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_6.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_7.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_7.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_8.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\pages_8.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\search.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\search.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\search_l.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\search_m.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\search_r.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\typedefs_0.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\typedefs_0.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_0.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_0.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_4.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_4.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_5.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_6.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\search\variables_6.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\spaces.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\structGLFWgammaramp.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\structGLFWimage.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\structGLFWvidmode.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\sync_off.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\sync_on.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\tab_a.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\tab_b.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\tab_h.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\tab_s.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\window.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\html\window_8dox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\input.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\internal.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\intro.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\main.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\monitor.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\moving.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\news.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\quick.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\rift.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\spaces.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\docs\window.dox" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\examples\CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\examples\boing.c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\examples\gears.c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\examples\heightmap.c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\examples\particles.c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\examples\simple.c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\examples\splitview.c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ollie\Desktop\Stuff\Git\SSim\CPP-Version\libs\glfw-3.1.2\examples\wave.c" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/CMakeLists.txt" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SSimCpp.iml" afterPath="$PROJECT_DIR$/.idea/SSimCpp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/Task.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/Task.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskThread.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskThread.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/Window.cpp" afterPath="$PROJECT_DIR$/src/UI/Window.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/msaa.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/msaa.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SSimCpp.iws" />
@@ -75,14 +350,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3617021">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libs/glfw-3.1.2/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2462006">
+              <caret line="503" column="20" selection-start-line="503" selection-start-column="20" selection-end-line="503" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,6 +454,8 @@
         <option value="$PROJECT_DIR$/src/Util/SThread.h" />
         <option value="$PROJECT_DIR$/src/UI/Window.cpp" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/libs/glfw-3.1.2/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/libs/glfw-3.1.2/tests/msaa.c" />
       </list>
     </option>
   </component>
@@ -421,6 +708,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSimCpp" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSimCpp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CPP-Version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="glfw-3.1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -603,7 +912,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446746658030</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created the SThread class with an interface very similar to java's implementation.">
+      <created>1446761592795</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1446761592795</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -617,9 +932,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="984" y="0" width="943" height="1087" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23093922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2762431" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33821988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -644,7 +959,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed issues with mutex on windows (I think). I installed mingw-w64 with a thread library of some sort." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed issues with mutex on windows (I think). I installed mingw-w64 with a thread library of some sort." />
+    <MESSAGE value="Created the SThread class with an interface very similar to java's implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the SThread class with an interface very similar to java's implementation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -968,11 +1284,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3617021">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/glfw-3.1.2/tests/msaa.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.168693">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/glfw-3.1.2/cmake_uninstall.cmake.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/glfw-3.1.2/COPYING.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/glfw-3.1.2/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2462006">
+          <caret line="503" column="20" selection-start-line="503" selection-start-column="20" selection-end-line="503" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

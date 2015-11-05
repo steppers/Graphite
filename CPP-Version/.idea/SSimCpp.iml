@@ -19,19 +19,8 @@
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/cmake_uninstall.cmake.in" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/glad.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/glad/glad.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/docs/Doxyfile.in" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/examples/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/examples/boing.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/examples/gears.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/examples/heightmap.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/examples/particles.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/examples/simple.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/examples/splitview.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/examples/wave.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" isTestSource="false" />
@@ -136,8 +125,6 @@
           <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Release/libs/glfw-3.1.2/src/glfw_config.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/glad/glad.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/glad.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" />
@@ -149,10 +136,10 @@
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_monitor.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/context.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/internal.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/window.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_window.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/internal.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_init.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_platform.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_tls.c" />
