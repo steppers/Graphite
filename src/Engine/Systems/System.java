@@ -10,4 +10,6 @@ public abstract class System implements Task {
 
     public abstract void execute(TaskManager.TaskThread thread);
 
+    public abstract void destroy();
+
 }

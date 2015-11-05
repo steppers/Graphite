@@ -10,7 +10,7 @@ public class StateManager extends Manager {
 
     private double delta;
 
-    public StateManager()
+    public void init()
     {
 
     }

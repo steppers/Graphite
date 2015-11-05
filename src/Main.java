@@ -1,19 +1,20 @@
 import Engine.Debug.Messages.InfoMessage;
 import Engine.Engine;
 import Engine.Managers.TaskManager.TaskManager;
+import Engine.Systems.GraphicsSystem;
 import Engine.Systems.System;
 
 /**
  * Created by steppers on 28/10/15.
  */
-public class Main {
-
+public class Main
+{
     public static void main(String[] args) {
         Engine eng = new Engine();
 
         //Add systems here
-        eng.addSystem(new TestSystem());
-        eng.addSystem(new TestSystem2());
+        //eng.addSystem(new TestSystem());
+        eng.addSystem(new GraphicsSystem(300, 300, "S-Engine"));
 
         //Enable sys out logging
         eng.enableDebugMode(true);
@@ -22,7 +23,6 @@ public class Main {
         eng.start();
         eng.dispose();
     }
-
 }
 
 //Test systems
@@ -30,14 +30,12 @@ class TestSystem extends System
 {
     @Override
     public void execute(TaskManager.TaskThread thread) {
-        Engine.getLogger().logMessage(new InfoMessage("Test system", "Test message!"));
+        Engine.getLogger().logMessage(new InfoMessage("Thread " + thread.getThreadId(), "Test message!"));
     }
-}
 
-class TestSystem2 extends System
-{
     @Override
-    public void execute(TaskManager.TaskThread thread) {
-        Engine.getLogger().logMessage(new InfoMessage("Test system2", "Test message 2!"));
+    public void destroy()
+    {
+
     }
 }

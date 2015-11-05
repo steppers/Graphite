@@ -48,8 +48,8 @@ public class Window {
 
     public void update()
     {
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-        glfwSwapBuffers(window);
+        //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        //glfwSwapBuffers(window);
         glfwPollEvents();
     }
 
@@ -58,7 +58,7 @@ public class Window {
         return glfwWindowShouldClose(window) == GL_TRUE;
     }
 
-    public void dispose()
+    public void destroy()
     {
         input.release();
         glfwDestroyWindow(window);

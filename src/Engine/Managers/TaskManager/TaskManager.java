@@ -12,12 +12,12 @@ import java.util.concurrent.LinkedBlockingQueue;
 public class TaskManager extends Manager {
 
     private static TaskManager instance = new TaskManager();
-    public static TaskManager getInstance(){return instance;};
+    public static TaskManager getInstance(){return instance;}
 
     private TaskThread[] threads;
     private BlockingQueue<Task> tasks;
 
-    public TaskManager()
+    public void init()
     {
         threads = new TaskThread[Runtime.getRuntime().availableProcessors()];
         tasks = new LinkedBlockingQueue<>();
@@ -33,7 +33,14 @@ public class TaskManager extends Manager {
         while(!tasks.isEmpty()){}
         for(TaskThread thread : threads)
         {
-            while(thread.t != null){}
+            while(true)
+            {
+                synchronized (thread.hasTask)
+                {
+                    if(!thread.hasTask)
+                        break;
+                }
+            }
         }
     }
 
@@ -57,7 +64,8 @@ public class TaskManager extends Manager {
     public class TaskThread extends Thread
     {
         private int id;
-        public Task t = null;
+        private Task t;
+        public Boolean hasTask = false;
 
         public TaskThread(int id)
         {
@@ -69,9 +77,10 @@ public class TaskManager extends Manager {
             while(true)
             {
                 try {
+                    synchronized (hasTask){hasTask = false;}
                     t = tasks.take();
+                    synchronized (hasTask){hasTask = true;}
                     t.execute(this);
-                    t = null;
                 } catch (InterruptedException e) {
                     break;
                 }

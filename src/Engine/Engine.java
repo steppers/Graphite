@@ -2,6 +2,9 @@ package Engine;
 
 import Engine.Debug.Logger;
 import Engine.Framework.Scheduler;
+import Engine.Managers.EnvironmentManager;
+import Engine.Managers.StateManager;
+import Engine.Managers.TaskManager.TaskManager;
 import Engine.Systems.System;
 
 import java.util.ArrayList;
@@ -11,19 +14,31 @@ import java.util.ArrayList;
  */
 public class Engine {
 
+    //Global Engine Objects
     private static Logger logger;
 
+    //Framework objects
     private Scheduler scheduler;
 
+    //Loaded Systems
     private ArrayList<System> systems;
 
-    private boolean running = false;
+    //Engine status variables
+    private Boolean running = false;
 
     public Engine()
     {
         systems = new ArrayList<>();
         scheduler = new Scheduler();
         logger = new Logger();
+        initManagers();
+    }
+
+    private void initManagers()
+    {
+        TaskManager.getInstance().init();
+        EnvironmentManager.getInstance().init(this);
+        StateManager.getInstance().init();
     }
 
     public void start()
@@ -32,10 +47,22 @@ public class Engine {
         loop();
     }
 
+    public void stop()
+    {
+        synchronized (running)
+        {
+            running = false;
+        }
+    }
+
     public void dispose()
     {
         scheduler.destroy();
         logger.destroy();
+        for(System s : systems) //Destroy systems
+        {
+            s.destroy();
+        }
     }
 
     private void loop()
@@ -43,14 +70,17 @@ public class Engine {
         long delta;
         long currentTime, lastTime;
 
-        while(running)
+        while(true)
         {
+            synchronized (running){
+                if(!running)
+                    break;
+            }
+
             for(System s : systems)
                 scheduler.submitTask(s);
             scheduler.executeTasks();
             scheduler.waitForCompletion();
-
-            running = false;
         }
     }
 

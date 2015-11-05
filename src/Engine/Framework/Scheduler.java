@@ -14,23 +14,9 @@ public class Scheduler {
     private ArrayList<Task> tasks;
     private TaskManager tm = TaskManager.getInstance();
 
-    private int frameLimit = 0;
-    private long frameTime = 0;
-    private long currentTime, lastTime;
-    private double delta;
-
     public Scheduler()
     {
         tasks = new ArrayList<>();
-    }
-
-    public void setFrameLimit(int frameLimit)
-    {
-        this.frameLimit = frameLimit;
-        if(frameLimit > 0)
-            this.frameTime = 1000/frameLimit;
-        else
-            this.frameTime = 0;
     }
 
     public void submitTask(Task t)
@@ -40,11 +26,6 @@ public class Scheduler {
 
     public void executeTasks()
     {
-        currentTime = System.currentTimeMillis();
-        delta = (currentTime - lastTime)/1000L;
-        lastTime = currentTime;
-        StateManager.getInstance().setDelta(delta);
-
         tm.submitTasks(tasks);
 
         tasks.clear();
