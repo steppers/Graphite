@@ -9,7 +9,7 @@
 #include "Systems/System.h"
 #include "Framework/Scheduler.h"
 #include <vector>
-#include <mutex>
+//#include <mutex>
 
 using namespace std;
 
@@ -30,7 +30,7 @@ private:
     vector<System*> _systems;
     Scheduler _scheduler;
 
-    mutex _mutexRunning;
+    //std::mutex _mutexRunning;
     bool _running = false;
 
     void initManagers();
