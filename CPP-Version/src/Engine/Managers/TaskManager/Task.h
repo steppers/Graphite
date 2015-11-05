@@ -5,12 +5,10 @@
 #ifndef SSIMCPP_TASK_H
 #define SSIMCPP_TASK_H
 
-#include "TaskThread.h"
-
 class Task
 {
 public:
-    virtual void execute(TaskThread thread);
+    virtual void execute();
 };
 
 #endif //SSIMCPP_TASK_H

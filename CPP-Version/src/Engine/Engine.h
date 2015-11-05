@@ -27,8 +27,8 @@ public:
 
 private:
     //Member Objects
-    vector<System*> _systems;
     Scheduler _scheduler;
+    vector<System*> _systems;
 
     mutex _mutexRunning;
     bool _running = false;

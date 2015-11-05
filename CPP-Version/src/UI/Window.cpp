@@ -37,6 +37,7 @@ void Window::init() {
     glfwSetWindowUserPointer(_window, _input);  //Assign out input object to this window
 
     glfwMakeContextCurrent(_window);
+    glfwSwapInterval(0);
 
     glfwSetKeyCallback(_window, key_callback);
     _validWindow = true;

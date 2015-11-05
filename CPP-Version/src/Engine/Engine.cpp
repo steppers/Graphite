@@ -3,6 +3,8 @@
 //
 
 #include "Engine.h"
+#include "Managers/EnvironmentManager.h"
+#include "Managers/StateManager.h"
 
 Engine::Engine() {
     initManagers();
@@ -10,26 +12,29 @@ Engine::Engine() {
 
 void Engine::initManagers() {
     TaskManager::getInstance().init();
+    EnvironmentManager::getInstance().init(this);
+    StateManager::getInstance().init();
 }
 
 void Engine::start() {
     _running = true;
+    loop();
 }
 
 void Engine::stop() {
-    _mutexRunning.lock();
+    _mutexRunning.lock();   //Synchronize for thread safety
         _running = false;
-    _mutexRunning.unlock();
+    _mutexRunning.unlock();//-----------------------------
 }
 
 void Engine::loop() {
     while(true)
     {
-        _mutexRunning.lock();
+        _mutexRunning.lock();//Synchronize for thread safety
         if(!_running){
             _mutexRunning.unlock();
             break;
-        }_mutexRunning.unlock();
+        }_mutexRunning.unlock();//------------------------
 
         for(System* s : _systems)
             _scheduler.submitTask((Task*)s);
