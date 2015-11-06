@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/Debug/libs/glfw-3.1.2/src/glfw_config.h">
-      <sourceFolder url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/Debug/libs/glfw-3.1.2/src/glfw_config.h" isTestSource="false" />
+    <content url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Debug0/libs/glfw-3.1.2/src/glfw_config.h">
+      <sourceFolder url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Debug0/libs/glfw-3.1.2/src/glfw_config.h" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/MinSizeRel/libs/glfw-3.1.2/src/glfw_config.h">
-      <sourceFolder url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/MinSizeRel/libs/glfw-3.1.2/src/glfw_config.h" isTestSource="false" />
+    <content url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/MinSizeRel0/libs/glfw-3.1.2/src/glfw_config.h">
+      <sourceFolder url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/MinSizeRel0/libs/glfw-3.1.2/src/glfw_config.h" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/RelWithDebInfo/libs/glfw-3.1.2/src/glfw_config.h">
-      <sourceFolder url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/RelWithDebInfo/libs/glfw-3.1.2/src/glfw_config.h" isTestSource="false" />
+    <content url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/RelWithDebInfo0/libs/glfw-3.1.2/src/glfw_config.h">
+      <sourceFolder url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/RelWithDebInfo0/libs/glfw-3.1.2/src/glfw_config.h" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/Release/libs/glfw-3.1.2/src/glfw_config.h">
-      <sourceFolder url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/Release/libs/glfw-3.1.2/src/glfw_config.h" isTestSource="false" />
+    <content url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Release0/libs/glfw-3.1.2/src/glfw_config.h">
+      <sourceFolder url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Release0/libs/glfw-3.1.2/src/glfw_config.h" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
@@ -28,25 +28,22 @@
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3Config.cmake.in" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw_config.h.in" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/input.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/internal.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/monitor.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_time.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_time.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/wgl_context.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/wgl_context.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_init.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_monitor.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_platform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_time.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_tls.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_tls.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_window.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/window.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_init.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_monitor.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_platform.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_window.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/winmm_joystick.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/winmm_joystick.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/clipboard.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/cursor.c" isTestSource="false" />
@@ -76,7 +73,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/Task.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskManager.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskRunnable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskThread.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskThread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TerminateTask.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TerminateTask.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/System.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Math/Vector2i.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Math/Vector2i.h" isTestSource="false" />
@@ -93,66 +93,65 @@
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/Debug/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/MinSizeRel/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/RelWithDebInfo/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/Release/libs/glfw-3.1.2/src" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include-fixed" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include/objc" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include/ssp" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/x86_64-w64-mingw32/include" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Debug0/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/MinSizeRel0/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/RelWithDebInfo0/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Release0/libs/glfw-3.1.2/src" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src" />
-          <root url="file:///usr/include" />
-          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
-          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
-          <root url="file:///usr/local/include" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/Debug/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/MinSizeRel/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/RelWithDebInfo/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/Release/libs/glfw-3.1.2/src" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include-fixed" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include/objc" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include/ssp" />
+          <root url="file://C:/Program Files/mingw-w64/x86_64-5.2.0-posix-seh-rt_v4-rev0/mingw64/x86_64-w64-mingw32/include" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Debug0/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/MinSizeRel0/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/RelWithDebInfo0/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Release0/libs/glfw-3.1.2/src" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src" />
-          <root url="file:///usr/include" />
-          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
-          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
-          <root url="file:///usr/local/include" />
         </SOURCES>
         <excluded>
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/Debug/libs/glfw-3.1.2/src/glfw_config.h" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/MinSizeRel/libs/glfw-3.1.2/src/glfw_config.h" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/RelWithDebInfo/libs/glfw-3.1.2/src/glfw_config.h" />
-          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/7405786c/7405786c/Release/libs/glfw-3.1.2/src/glfw_config.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Debug0/libs/glfw-3.1.2/src/glfw_config.h" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/MinSizeRel0/libs/glfw-3.1.2/src/glfw_config.h" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/RelWithDebInfo0/libs/glfw-3.1.2/src/glfw_config.h" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4d4af992/4d4af992/Release0/libs/glfw-3.1.2/src/glfw_config.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_monitor.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_window.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_init.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/window.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_time.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_platform.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/monitor.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/internal.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/input.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/wgl_context.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw_config.h.in" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3Config.cmake.in" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/context.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_monitor.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_window.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_time.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/window.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/internal.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_init.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_platform.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_tls.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_time.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/monitor.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/win32_tls.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/winmm_joystick.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/winmm_joystick.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/input.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/wgl_context.c" />
         </excluded>
       </library>
     </orderEntry>

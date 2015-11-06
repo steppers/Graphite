@@ -1,15 +1,14 @@
 #include "UI/Window.h"
-#include "Util/SThread.h"
-#include "Util/BlockingQueue.h"
+#include "Engine/Managers/TaskManager/TaskManager.h"
 
 #include <math.h>
 #include <iostream>
 
 using namespace std;
 
-class TestRunnable : public SRunnable {
+class WindowTask : public Task {
 public:
-    void run(SThread* thread) {
+    void execute(TaskThread* taskThread){
         Window* w = new Window(300, 300);
         if(!w->isValid())
             return;
@@ -20,7 +19,7 @@ public:
         while(true)
         {
             c = (0.5*sin(i))+0.5;
-            glClearColor(c, 0, 0, 1);
+            glClearColor(c, c, 0, 1);
             i += 0.08;
             SThread::sleep(16);
             w->update();
@@ -32,72 +31,24 @@ public:
     }
 };
 
-BlockingQueue<int> _queue;
-
-class Producer : public SRunnable {
+class OutputTask : public Task {
 public:
-    void run(SThread* thread) {
-        for(int i = 0; i < 10; i++)
-        {
-            _queue.add(i);
-            SThread::sleep(250);
+    void execute(TaskThread* taskThread){
+        for(int i = 0; i < 20; i++) {
+            cout << i << endl;
+            SThread::sleep(1000);
         }
     }
 };
-
-class Consumer : public SRunnable {
-public:
-    void run(SThread* thread) {
-        for(int i = 0; i < 10; i++)
-        {
-            cout << _queue.take() << endl;
-        }
-    }
-};
-
-//class Producer : public Task {
-//public:
-//    void execute(TaskRunnable* runnable){
-//        for(int i = 0; i < 10; i++)
-//        {
-//            _queue.add(i);
-//            SThread::sleep(250);
-//        }
-//    }
-//};
-//
-//class Consumer : public Task {
-//public:
-//    void execute(TaskRunnable* runnable){
-//        for(int i = 0; i < 10; i++)
-//        {
-//            cout << _queue.take() << endl;
-//        }
-//    }
-//};
 
 int main(void) {
-//    TestRunnable r;
-//    SThread t(&r);
-//    t.start();
-//    t.join();
+    TaskManager& tm = TaskManager::getInstance();
+    tm.init();
 
-    Consumer consumer;
-    Producer producer;
-    SThread p(&producer);
-    SThread c(&consumer);
+    tm.submitTask(new WindowTask());
+    tm.submitTask(new OutputTask());
 
-    c.start();
-    p.start();
-
-    c.join();
-    p.join();
-
-//    TaskManager tm = TaskManager::getInstance();
-//    tm.init();
-//
-//    tm.submitTask(new Consumer());
-//    tm.submitTask(new Producer());
+    tm.killThreads();
 
     return 0;
 }

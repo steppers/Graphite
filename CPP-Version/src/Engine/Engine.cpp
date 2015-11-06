@@ -11,7 +11,7 @@ Engine::Engine() {
 }
 
 void Engine::initManagers() {
-    //TaskManager::getInstance().init();
+    TaskManager::getInstance().init();
     EnvironmentManager::getInstance().init(this);
     StateManager::getInstance().init();
 }
