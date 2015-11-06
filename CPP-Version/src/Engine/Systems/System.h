@@ -6,8 +6,9 @@
 #define SSIMCPP_SYSTEM_H
 
 #include "../Managers/TaskManager/Task.h"
+#include "../Managers/TaskManager/TaskManager.h"
 
-class System : Task
+class System : public Task
 {
 public:
     virtual void execute();

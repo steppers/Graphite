@@ -5,7 +5,7 @@
 #include "Scheduler.h"
 
 Scheduler::Scheduler() {
-    _tm = &TaskManager::getInstance();
+    //_tm = &TaskManager::getInstance();
 }
 
 void Scheduler::submitTask(Task *task) {
@@ -13,7 +13,7 @@ void Scheduler::submitTask(Task *task) {
 }
 
 void Scheduler::executeTasks() {
-    _tm->submitTasks(&_tasks);
+    //_tm->submitTasks(&_tasks);
     _tasks.clear();
 }
 

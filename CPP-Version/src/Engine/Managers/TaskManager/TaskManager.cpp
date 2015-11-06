@@ -3,11 +3,3 @@
 //
 
 #include "TaskManager.h"
-
-void TaskManager::init() {
-
-}
-
-void TaskManager::submitTasks(vector<Task *> *tasks) {
-
-}
