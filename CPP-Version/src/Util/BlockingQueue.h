@@ -31,6 +31,11 @@ public:
         _queue.pop();
         return r;
     }
+
+    bool empty()
+    {
+        return _queue.empty();
+    }
 private:
     mutex _mutex;
     condition_variable _condition;

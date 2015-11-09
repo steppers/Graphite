@@ -8,6 +8,7 @@
 
 #include "Systems/System.h"
 #include "Framework/Scheduler.h"
+#include "Framework/Debug/Logger.h"
 #include <vector>
 #include <mutex>
 
@@ -22,13 +23,14 @@ public:
     void stop();
 
     void addSystem(System* system);
-    void getLogger();
     void debugMode(bool enabled);
+    static Logger* getLogger();
 
 private:
     //Member Objects
     Scheduler _scheduler;
     vector<System*> _systems;
+    static Logger _logger;
 
     mutex _mutexRunning;
     bool _running = false;
@@ -36,6 +38,5 @@ private:
     void initManagers();
     void loop();
 };
-
 
 #endif //SSIMCPP_ENGINE_H

@@ -6,8 +6,16 @@
 #include "Managers/EnvironmentManager.h"
 #include "Managers/StateManager.h"
 
+Logger Engine::_logger;
+
 Engine::Engine() {
     initManagers();
+}
+
+Engine::~Engine() {
+    TaskManager::getInstance().killThreads();
+    for(System* s : _systems)
+        delete s;
 }
 
 void Engine::initManagers() {
@@ -47,10 +55,10 @@ void Engine::addSystem(System* system) {
     _systems.push_back(system);
 }
 
-void Engine::getLogger() {
-
+Logger* Engine::getLogger() {
+    return &_logger;
 }
 
 void Engine::debugMode(bool enabled) {
-
+    _logger.debugEnable(enabled);
 }

@@ -22,11 +22,12 @@ public:
     void init();
 
     void submitTask(Task* task);
-    void submitTasks(vector<Task*> tasks);
+    void submitTasks(vector<Task*>* tasks);
     void killThreads();
     void waitForTasks();
 
     Task* takeTask();
+    void notifyOfTaskCompletion();
 
 private:
     //Singleton initialisation----------------------------------------------------
@@ -39,6 +40,10 @@ private:
 
     vector<TaskThread*> _threads;
     BlockingQueue<Task*> _tasks;
+
+    int _totalTasks = 0;
+    mutex _mutex;
+    condition_variable _cond;
 };
 
 #endif //SSIMCPP_TASKMANAGER_H

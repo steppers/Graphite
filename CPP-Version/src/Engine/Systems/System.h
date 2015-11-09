@@ -11,7 +11,7 @@
 class System : public Task
 {
 public:
-    virtual void execute();
+    virtual void execute(TaskThread* taskThread) = 0;
 };
 
 #endif //SSIMCPP_SYSTEM_H

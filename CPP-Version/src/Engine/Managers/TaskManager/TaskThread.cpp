@@ -16,6 +16,7 @@ void TaskThread::run(SThread* thread){
     _running = true;
     while(_running){
         _tm->takeTask()->execute(this);
+        _tm->notifyOfTaskCompletion();
     }
 }
 

@@ -18,11 +18,17 @@ void TaskManager::init() {
 
 void TaskManager::submitTask(Task *task) {
     _tasks.add(task);
+    _mutex.lock();
+    _totalTasks++;
+    _mutex.unlock();
 }
 
-void TaskManager::submitTasks(vector<Task*> tasks) {
-    for(Task* t : tasks)
+void TaskManager::submitTasks(vector<Task*>* tasks) {
+    for(Task* t : *tasks)
         _tasks.add(t);
+    _mutex.lock();
+    _totalTasks += tasks->size();
+    _mutex.unlock();
 }
 
 void TaskManager::killThreads() {
@@ -33,9 +39,19 @@ void TaskManager::killThreads() {
 }
 
 void TaskManager::waitForTasks() {
-
+    unique_lock<mutex> lock(_mutex);
+    while(_totalTasks > 0) {    //Wait for no more tasks being executed
+        _cond.wait(lock);
+    }
 }
 
 Task* TaskManager::takeTask() {
     return _tasks.take();
+}
+
+void TaskManager::notifyOfTaskCompletion() {
+    _mutex.lock();
+    _totalTasks--;
+    _cond.notify_one();
+    _mutex.unlock();
 }
