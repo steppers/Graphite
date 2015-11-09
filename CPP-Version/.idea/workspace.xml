@@ -37,24 +37,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c468c19-c7f1-48e3-af6d-622fb1c59836" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Framework/Debug/Logger.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Framework/Debug/Logger.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Util/BlockingQueue.h" afterPath="$PROJECT_DIR$/src/Util/BlockingQueue.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Engine.cpp" afterPath="$PROJECT_DIR$/src/Engine/Engine.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Engine.h" afterPath="$PROJECT_DIR$/src/Engine/Engine.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SSimCpp.iml" afterPath="$PROJECT_DIR$/.idea/SSimCpp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Framework/Scheduler.cpp" afterPath="$PROJECT_DIR$/src/Engine/Framework/Scheduler.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Systems/System.h" afterPath="$PROJECT_DIR$/src/Engine/Systems/System.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.cpp" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskThread.cpp" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskThread.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SSimCpp.iws" />
@@ -687,7 +669,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446761592795</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="The task manager and engine interface works well now. I'm now at the point i was at in the initial java version.">
+      <created>1447086783517</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1447086783517</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -729,7 +717,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed issues with mutex on windows (I think). I installed mingw-w64 with a thread library of some sort." />
     <MESSAGE value="Created the SThread class with an interface very similar to java's implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the SThread class with an interface very similar to java's implementation." />
+    <MESSAGE value="The task manager and engine interface works well now. I'm now at the point i was at in the initial java version." />
+    <option name="LAST_COMMIT_MESSAGE" value="The task manager and engine interface works well now. I'm now at the point i was at in the initial java version." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
