@@ -21,12 +21,21 @@ void GraphicsSystem::execute(TaskThread *taskThread) {
         Engine::getLogger()->logMessage("Graphics", "ERROR: Cannot create window!");
     }
 
-    _window->getContext();
-    c = (0.5*sin(i))+0.5;
+    Engine::getLogger()->logMessage("FPS", to_string(fps++));
+
+    _window->getContext();  //Ready the thread for rendering
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+    //Rendering code here
+    c = (0.5*sin(i))+0.5;   //Update clear color
     glClearColor(c, c, 0, 1);
     i += 0.08;
-    SThread::sleep(16);
+    //SThread::sleep(16);
+
+    //Update the window here.
     _window->update();
-    if(_window->getInput()->isKeyDown(GLFW_KEY_ESCAPE) | _window->isCloseRequested())
+    if(_window->isCloseRequested())
         EnvironmentManager::getInstance().stopEngine();
+
+    _window->releaseContext();  //Release the GL context
 }

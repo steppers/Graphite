@@ -3,10 +3,12 @@
 //
 
 #include "Window.h"
+#include "../Engine/Managers/InputManager.h"
 
 Window::Window(int width, int height) {
     _resolution = new Vector2i(width, height);
     _input = new Input();
+    InputManager::getInstance().setInput(_input);
     init();
 }
 
@@ -37,9 +39,11 @@ void Window::init() {
     glfwSetWindowUserPointer(_window, _input);  //Assign out input object to this window
 
     glfwMakeContextCurrent(_window);
-    glfwSwapInterval(0);
+    glfwSwapInterval(1);
 
     glfwSetKeyCallback(_window, key_callback);
+    glfwMakeContextCurrent(nullptr);
+
     _validWindow = true;
 }
 
@@ -47,10 +51,12 @@ void Window::getContext() {
     glfwMakeContextCurrent(_window);
 }
 
+void Window::releaseContext() {
+    glfwMakeContextCurrent(nullptr);
+}
+
 void Window::update() {
     glfwSwapBuffers(_window);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    glfwPollEvents();
 }
 
 bool Window::isCloseRequested() {

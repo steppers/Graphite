@@ -18,6 +18,8 @@ public:
 private:
     Window* _window;
     double i = 0, c = 0;
+
+    long fps = 0;
 };
 
 

@@ -16,6 +16,7 @@ public:
     ~Window();
 
     void getContext();
+    void releaseContext();
     void update();
 
     bool isCloseRequested();

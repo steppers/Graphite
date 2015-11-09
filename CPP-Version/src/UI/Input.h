@@ -19,6 +19,8 @@ public:
     bool isKeyDown(int key);
     bool isKeyUp(int key);
 
+    static void poll();
+
 private:
     unordered_map<int, int> _keys;
 };

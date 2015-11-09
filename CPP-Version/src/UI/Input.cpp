@@ -15,3 +15,7 @@ bool Input::isKeyDown(int key) {
 bool Input::isKeyUp(int key) {
     return _keys[key] == (GLFW_RELEASE | 0);
 }
+
+void Input::poll() {
+    glfwPollEvents();
+}

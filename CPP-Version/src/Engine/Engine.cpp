@@ -5,6 +5,7 @@
 #include "Engine.h"
 #include "Managers/EnvironmentManager.h"
 #include "Managers/StateManager.h"
+#include "Managers/InputManager.h"
 
 Logger Engine::_logger;
 
@@ -22,6 +23,7 @@ void Engine::initManagers() {
     TaskManager::getInstance().init();
     EnvironmentManager::getInstance().init(this);
     StateManager::getInstance().init();
+    InputManager::getInstance().init();
 }
 
 void Engine::start() {
@@ -48,6 +50,8 @@ void Engine::loop() {
             _scheduler.submitTask((Task*)s);
         _scheduler.executeTasks();
         _scheduler.waitForTaskCompletion();
+
+        InputManager::getInstance().update();
     }
 }
 
