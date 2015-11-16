@@ -36,194 +36,130 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c468c19-c7f1-48e3-af6d-622fb1c59836" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lwjgl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/.idea/SSimCpp.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/.idea/codeStyleSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/COPYING.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/cmake_uninstall.cmake.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/deps/EGL/eglext.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/deps/GL/glext.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/deps/GL/glxext.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/deps/GL/wglext.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/deps/KHR/khrplatform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/deps/getopt.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/deps/getopt.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/deps/glad.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/deps/glad/glad.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/deps/linmath.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/deps/tinycthread.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/deps/tinycthread.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/include/GLFW/glfw3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/include/GLFW/glfw3native.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/cocoa_init.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/cocoa_monitor.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/cocoa_platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/cocoa_window.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/context.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/egl_context.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/egl_context.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/glfw3.pc.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/glfw3Config.cmake.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/glfw_config.h.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/glx_context.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/glx_context.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/init.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/input.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/internal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/iokit_joystick.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/iokit_joystick.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/linux_joystick.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/linux_joystick.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/mach_time.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/mir_init.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/mir_monitor.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/mir_platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/mir_window.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/monitor.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/nsgl_context.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/nsgl_context.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/posix_time.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/posix_time.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/posix_tls.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/posix_tls.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/wgl_context.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/wgl_context.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/win32_init.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/win32_monitor.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/win32_platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/win32_time.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/win32_tls.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/win32_tls.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/win32_window.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/window.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/winmm_joystick.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/winmm_joystick.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/wl_init.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/wl_monitor.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/wl_platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/wl_window.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/x11_init.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/x11_monitor.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/x11_platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/x11_window.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/xkb_unicode.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/src/xkb_unicode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/clipboard.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/cursor.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/empty.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/events.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/gamma.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/glfwinfo.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/iconify.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/joysticks.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/monitors.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/msaa.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/reopen.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/sharing.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/tearing.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/threads.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/title.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/libs/glfw-3.1.2/tests/windows.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Engine.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Engine.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Framework/Debug/Logger.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Framework/Debug/Logger.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Framework/Scheduler.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Framework/Scheduler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/EnvironmentManager.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/EnvironmentManager.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/InputManager.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/InputManager.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/Manager.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/StateManager.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/StateManager.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/TaskManager/Task.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/TaskManager/TaskManager.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/TaskManager/TaskManager.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/TaskManager/TaskThread.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/TaskManager/TaskThread.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/TaskManager/TerminateTask.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Managers/TaskManager/TerminateTask.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Systems/GraphicsSystem.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Systems/GraphicsSystem.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Engine/Systems/System.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Math/Vector2i.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Math/Vector2i.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/UI/Input.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/UI/Input.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/UI/Window.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/UI/Window.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Util/BlockingQueue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/Util/SThread.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CPP-Version/src/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SSim.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/doc/3rdparty/glfw_license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/doc/3rdparty/jemalloc_license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/doc/3rdparty/khronos_license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/doc/3rdparty/libffi_license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/doc/3rdparty/oculus_license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/doc/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/doc/javadoc.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jar/lwjgl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/OpenAL.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/OpenAL32.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/glfw.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/glfw32.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/jemalloc.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/jemalloc32.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/libglfw.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/libglfw.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/libglfw32.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/libjemalloc.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/libjemalloc.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/libjemalloc32.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/liblwjgl.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/liblwjgl.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/liblwjgl32.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/libopenal.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/libopenal.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/libopenal32.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/lwjgl.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/native/lwjgl32.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Debug/Logger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Debug/Messages/ErrorMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Debug/Messages/InfoMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Debug/Messages/Message.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Debug/Messages/WarningMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Engine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Framework/Scheduler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Framework/UObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Framework/UScene.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Managers/Manager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Managers/StateManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/Task.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Engine/Systems/System.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Maths/Vector2f.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Maths/Vector2i.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/UI/Input.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/UI/Window.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="3c468c19-c7f1-48e3-af6d-622fb1c59836" name="Default" comment="Removed old java code">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Util/BlockingQueue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/COPYING.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Engine.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Engine.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UI/Input.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UI/Input.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/InputManager.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/InputManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Framework/Debug/Logger.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Framework/Debug/Logger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/Manager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/SSimCpp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Util/SThread.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Framework/Scheduler.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Framework/Scheduler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/StateManager.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/StateManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Systems/System.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/Task.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskThread.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskThread.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TerminateTask.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TerminateTask.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Math/Vector2i.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Math/Vector2i.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UI/Window.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UI/Window.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/clipboard.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/cmake_uninstall.cmake.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/cocoa_init.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/cocoa_monitor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/cocoa_platform.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/cocoa_window.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/context.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/cursor.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/egl_context.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/egl_context.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/EGL/eglext.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/empty.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/events.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/gamma.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/getopt.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/getopt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/glad.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/glad/glad.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/GL/glext.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glfw3Config.cmake.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glfw_config.h.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/glfwinfo.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glx_context.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glx_context.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/GL/glxext.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/iconify.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/init.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/input.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/iokit_joystick.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/iokit_joystick.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/joysticks.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/KHR/khrplatform.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/linmath.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/linux_joystick.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/linux_joystick.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mach_time.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mir_init.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mir_monitor.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mir_platform.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mir_window.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/monitor.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/monitors.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/msaa.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/nsgl_context.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/nsgl_context.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/posix_time.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/posix_time.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/posix_tls.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/posix_tls.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/reopen.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/sharing.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/tearing.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/threads.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/title.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wgl_context.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wgl_context.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/GL/wglext.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_init.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_monitor.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_platform.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_time.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_tls.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_tls.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_window.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/window.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/windows.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/winmm_joystick.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/winmm_joystick.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wl_init.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wl_monitor.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wl_platform.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wl_window.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/x11_init.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/x11_monitor.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/x11_platform.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/x11_window.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/xkb_unicode.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/xkb_unicode.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SSimCpp.iws" />
@@ -464,6 +400,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSimCpp" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSimCpp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -663,7 +617,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447086783517</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed old java code">
+      <created>1447684034937</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1447684034937</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -677,9 +637,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1922" height="1051" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33437827" sideWeight="0.48333332" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32706374" sideWeight="0.49375" order="11" side_tool="false" content_ui="tabs" />
@@ -706,7 +666,8 @@
     <MESSAGE value="Fixed issues with mutex on windows (I think). I installed mingw-w64 with a thread library of some sort." />
     <MESSAGE value="Created the SThread class with an interface very similar to java's implementation." />
     <MESSAGE value="The task manager and engine interface works well now. I'm now at the point i was at in the initial java version." />
-    <option name="LAST_COMMIT_MESSAGE" value="The task manager and engine interface works well now. I'm now at the point i was at in the initial java version." />
+    <MESSAGE value="Removed old java code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed old java code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
