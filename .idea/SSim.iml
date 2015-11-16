@@ -83,6 +83,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/UI/Window.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Util/BlockingQueue.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Util/SThread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Util/Timer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Util/Timer.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main.cpp" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />

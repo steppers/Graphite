@@ -28,7 +28,7 @@ void GraphicsSystem::execute(TaskThread *taskThread) {
 
     //Rendering code here
     c = (0.5*sin(i))+0.5;   //Update clear color
-    glClearColor(c, c, 0, 1);
+    glClearColor(0, c, c, 1);
     i += 0.08;
     //SThread::sleep(16);
 
