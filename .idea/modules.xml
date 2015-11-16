@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SSim.iml" filepath="$PROJECT_DIR$/SSim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SSimCpp.iml" filepath="$PROJECT_DIR$/.idea/SSimCpp.iml" />
     </modules>
   </component>
 </project>
