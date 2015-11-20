@@ -6,7 +6,7 @@
 #define SSIMCPP_GRAPHICSSYSTEM_H
 
 #include "System.h"
-#include "../../UI/Window.h"
+#include "../../UI/GLPanel.h"
 
 class GraphicsSystem : public System {
 public:
@@ -15,8 +15,10 @@ public:
 
     void execute(TaskThread* taskThread);
 
+    void setVSync(bool enabled);
+
 private:
-    Window* _window;
+    GLPanel* _window;
     double i = 0, c = 0;
 
     long fps = 0;

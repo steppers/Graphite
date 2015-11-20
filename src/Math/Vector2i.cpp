@@ -4,6 +4,11 @@
 
 #include "Vector2i.h"
 
+Vector2i::Vector2i() {
+    _x = 0;
+    _y = 0;
+}
+
 Vector2i::Vector2i(int x, int y) {
     _x = x;
     _y = y;
@@ -15,6 +20,10 @@ int Vector2i::getX() {
 
 int Vector2i::getY() {
     return _y;
+}
+
+void Vector2i::set(int x, int y) {
+    _x = x; _y = y;
 }
 
 void Vector2i::setX(int x) {

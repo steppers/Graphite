@@ -8,6 +8,7 @@
 
 class Vector2i {
 public:
+    Vector2i();
     Vector2i(int x, int y);
 
     Vector2i add(int x, int y);
@@ -16,6 +17,7 @@ public:
     int getX();
     int getY();
 
+    void set(int x, int y);
     void setX(int x);
     void setY(int y);
 

@@ -63,6 +63,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/InputManager.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/InputManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/Manager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/PlatformManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/PlatformManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/Task.h" isTestSource="false" />
@@ -77,10 +79,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/System.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Math/Vector2i.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Math/Vector2i.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/UI/GLPanel.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/UI/GLPanel.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/UI/Input.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/UI/Input.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/UI/Window.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/UI/Window.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/UI/Windows/PCWindow.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/UI/Windows/PCWindow.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Util/BlockingQueue.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Util/SThread.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Util/Timer.cpp" isTestSource="false" />
