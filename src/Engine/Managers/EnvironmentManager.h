@@ -5,10 +5,9 @@
 #ifndef SSIMCPP_ENVIRONMENTMANAGER_H
 #define SSIMCPP_ENVIRONMENTMANAGER_H
 
-#include "Manager.h"
 #include "../Engine.h"
 
-class EnvironmentManager : Manager {
+class EnvironmentManager {
 public:
     static EnvironmentManager& getInstance(){
         static EnvironmentManager instance;

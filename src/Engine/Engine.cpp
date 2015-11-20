@@ -7,6 +7,7 @@
 #include "Managers/StateManager.h"
 #include "Managers/InputManager.h"
 #include "Managers/PlatformManager.h"
+#include "Managers/ServiceManager.h"
 
 Logger Engine::_logger;
 
@@ -26,6 +27,7 @@ void Engine::initManagers() {
     StateManager::getInstance().init();
     InputManager::getInstance().init();
     PlatformManager::getInstance().init();
+    ServiceManager::getInstance().init();
 }
 
 void Engine::start() {

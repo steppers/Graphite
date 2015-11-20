@@ -5,11 +5,10 @@
 #ifndef SSIMCPP_ENGINE_H
 #define SSIMCPP_ENGINE_H
 
-
 #include "Systems/System.h"
 #include "Framework/Scheduler.h"
 #include "Framework/Debug/Logger.h"
-#include "../UI/Input.h"
+
 #include <vector>
 #include <mutex>
 

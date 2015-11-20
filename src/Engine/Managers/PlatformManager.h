@@ -17,8 +17,8 @@ public:
 
     void init();
 
-    static GLPanel* createGLPanel(int width, int height);
-    static Input* getInput(GLPanel* panel);
+    GLPanel* createGLPanel(int width, int height);
+    //static Input* getInput(GLPanel* panel);
 
 private:
     //Singleton initialisation----------------------------------------------------

@@ -9,7 +9,7 @@
 #include <math.h>
 
 GraphicsSystem::GraphicsSystem(int width, int height) {
-    _window = PlatformManager::createGLPanel(width, height);
+    _window = PlatformManager::getInstance().createGLPanel(width, height);
 }
 
 GraphicsSystem::~GraphicsSystem() {
@@ -34,7 +34,7 @@ void GraphicsSystem::execute(TaskThread *taskThread) {
 
     //Update the window here.
     _window->update();
-    if(_window->isCloseRequested())
+    if(_window->isCloseRequested() || _window->getInput()->isKeyDown(GLFW_KEY_ESCAPE))
         EnvironmentManager::getInstance().stopEngine();
 
     _window->releaseGLContext();  //Release the GL context

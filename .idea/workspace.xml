@@ -39,23 +39,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c468c19-c7f1-48e3-af6d-622fb1c59836" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UI/GLPanel.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UI/GLPanel.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UI/Windows/PCWindow.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UI/Windows/PCWindow.h" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/UI/Window.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/UI/Window.h" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/ServiceManager.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/ServiceManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Util/ChangeController.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Util/ChangeController.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SSim.iml" afterPath="$PROJECT_DIR$/.idea/SSim.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Engine.cpp" afterPath="$PROJECT_DIR$/src/Engine/Engine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Engine.h" afterPath="$PROJECT_DIR$/src/Engine/Engine.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.cpp" afterPath="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.h" afterPath="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Math/Vector2i.cpp" afterPath="$PROJECT_DIR$/src/Math/Vector2i.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Math/Vector2i.h" afterPath="$PROJECT_DIR$/src/Math/Vector2i.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
     </list>
     <ignored path="SSimCpp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,14 +71,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23546511">
-              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeController.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Util/ChangeController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5494186">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding>
+                <element signature="e#312#324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeController.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Util/ChangeController.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding>
                 <element signature="e#106#135#0" expanded="true" />
               </folding>
@@ -100,13 +117,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphicsSystem.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.h">
+      <file leaf-file-name="GraphicsSystem.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="e#110#129#0" expanded="true" />
+                <element signature="e#43#70#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,53 +133,40 @@
         <entry file="file://$PROJECT_DIR$/src/Engine/Engine.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#43#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnvironmentManager.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphicsSystem.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.cpp">
+      <file leaf-file-name="EnvironmentManager.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-              <folding>
-                <element signature="e#43#70#0" expanded="true" />
-                <marker date="1448044919575" expanded="true" signature="330:353" placeholder="{...}" />
-              </folding>
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PCWindow.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/Windows/PCWindow.h">
+      <file leaf-file-name="Engine.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Engine/Engine.h">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding>
-                <element signature="e#93#116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PCWindow.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/Windows/PCWindow.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
-              <folding>
-                <element signature="e#43#64#0" expanded="true" />
-                <marker date="1448044897995" expanded="true" signature="156:308" placeholder="{...}" />
-                <marker date="1448044897995" expanded="true" signature="332:448" placeholder="{...}" />
-                <marker date="1448044897995" expanded="true" signature="472:1008" placeholder="{...}" />
-                <marker date="1448044897995" expanded="true" signature="1040:1080" placeholder="{...}" />
-                <marker date="1448044897995" expanded="true" signature="1116:1156" placeholder="{...}" />
-                <marker date="1448044897995" expanded="true" signature="1183:1211" placeholder="{...}" />
-                <marker date="1448044897995" expanded="true" signature="1237:1270" placeholder="{...}" />
-                <marker date="1448044897995" expanded="true" signature="1306:1363" placeholder="{...}" />
-              </folding>
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -175,10 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.cpp" />
-        <option value="$PROJECT_DIR$/src/Engine/Managers/StateManager.h" />
-        <option value="$PROJECT_DIR$/src/Engine/Managers/StateManager.cpp" />
-        <option value="$PROJECT_DIR$/src/Tester.cpp.h" />
         <option value="$PROJECT_DIR$/src/Util/Runnable.h" />
         <option value="$PROJECT_DIR$/src/Util/Thread.h" />
         <option value="$PROJECT_DIR$/libs/glfw-3.1.2/CMakeLists.txt" />
@@ -207,7 +207,6 @@
         <option value="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.cpp" />
         <option value="$PROJECT_DIR$/src/UI/Input.h" />
         <option value="$PROJECT_DIR$/src/UI/Input.cpp" />
-        <option value="$PROJECT_DIR$/src/Engine/Engine.h" />
         <option value="$PROJECT_DIR$/src/Engine/Managers/InputManager.h" />
         <option value="$PROJECT_DIR$/src/Engine/Managers/InputManager.cpp" />
         <option value="$PROJECT_DIR$/src/Util/Timer.h" />
@@ -219,13 +218,18 @@
         <option value="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.cpp" />
         <option value="$PROJECT_DIR$/src/UI/GLPanel.h" />
         <option value="$PROJECT_DIR$/src/UI/Windows/PCWindow.h" />
-        <option value="$PROJECT_DIR$/src/Engine/Engine.cpp" />
-        <option value="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h" />
         <option value="$PROJECT_DIR$/src/UI/Windows/PCWindow.cpp" />
-        <option value="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.cpp" />
         <option value="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h" />
+        <option value="$PROJECT_DIR$/src/Engine/Managers/ServiceManager.h" />
+        <option value="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h" />
+        <option value="$PROJECT_DIR$/src/Engine/Engine.h" />
+        <option value="$PROJECT_DIR$/src/Engine/Engine.cpp" />
+        <option value="$PROJECT_DIR$/src/Engine/Managers/ServiceManager.cpp" />
+        <option value="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.cpp" />
+        <option value="$PROJECT_DIR$/src/Util/ChangeController.h" />
       </list>
     </option>
   </component>
@@ -346,28 +350,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSim" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Windows" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -759,7 +741,6 @@
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#43#70#0" expanded="true" />
-            <marker date="1448044919575" expanded="true" signature="330:353" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -804,7 +785,6 @@
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#43#70#0" expanded="true" />
-            <marker date="1448044919575" expanded="true" signature="330:353" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -849,7 +829,6 @@
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#43#70#0" expanded="true" />
-            <marker date="1448044919575" expanded="true" signature="330:353" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -936,20 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Input.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43707713">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Engine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20815139">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/Input.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.123726346">
@@ -969,14 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1036,26 +993,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding>
-            <element signature="e#93#116#0" expanded="true" />
+            <element signature="e#93#116#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#106#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Engine.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,7 +1003,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
           <folding>
-            <element signature="e#43#64#0" expanded="true" />
+            <element signature="e#43#64#0" expanded="false" />
             <marker date="1448044897995" expanded="true" signature="156:308" placeholder="{...}" />
             <marker date="1448044897995" expanded="true" signature="332:448" placeholder="{...}" />
             <marker date="1448044897995" expanded="true" signature="472:1008" placeholder="{...}" />
@@ -1087,17 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="e#43#70#0" expanded="true" />
-            <marker date="1448044919575" expanded="true" signature="330:353" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15500538">
@@ -1116,12 +1044,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Engine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/ServiceManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/ServiceManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18313953">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23546511">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/ChangeController.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Input.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49709302">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#106#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Engine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/BlockingQueue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2877907">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#203#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/ChangeController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5494186">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#312#324#0" expanded="true" />
           </folding>
         </state>
       </provider>
