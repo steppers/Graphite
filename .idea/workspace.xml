@@ -38,20 +38,7 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c468c19-c7f1-48e3-af6d-622fb1c59836" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/ServiceManager.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/ServiceManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Util/ChangeController.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Util/ChangeController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SSim.iml" afterPath="$PROJECT_DIR$/.idea/SSim.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Engine.cpp" afterPath="$PROJECT_DIR$/src/Engine/Engine.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Engine.h" afterPath="$PROJECT_DIR$/src/Engine/Engine.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.cpp" afterPath="$PROJECT_DIR$/src/Engine/Systems/GraphicsSystem.cpp" />
-    </list>
+    <list default="true" id="3c468c19-c7f1-48e3-af6d-622fb1c59836" name="Default" comment="" />
     <ignored path="SSimCpp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
