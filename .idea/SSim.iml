@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CPP_MODULE" version="4">
-  <component name="NewModuleRootManager">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/CMakeLists.txt" isTestSource="false" />
@@ -58,6 +58,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Debug/Logger.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Scheduler.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Scheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UComponent.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UComponent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UObject.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UScene.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UScene.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/EnvironmentManager.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/EnvironmentManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/InputManager.cpp" isTestSource="false" />
@@ -67,8 +73,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/PlatformManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/ServiceManager.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/ServiceManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager/ChangeController.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager/ChangeController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager/StateManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager/StateManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/Task.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskManager.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskManager.h" isTestSource="false" />
@@ -76,8 +84,20 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskThread.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TerminateTask.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TerminateTask.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/GraphicsSystem.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/GraphicsSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/pStateManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/pStateManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/pSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/pSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/pUComponent.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/pUComponent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/pUObject.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/pUObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/pUScene.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/pUScene.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsObject.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/System.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Math/Vector2i.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Math/Vector2i.h" isTestSource="false" />
@@ -88,8 +108,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/UI/Windows/PCWindow.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/UI/Windows/PCWindow.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Util/BlockingQueue.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Util/ChangeController.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Util/ChangeController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Util/SThread.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Util/Timer.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Util/Timer.h" isTestSource="false" />
@@ -112,6 +130,7 @@
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
           <root url="file:///usr/local/include" />
         </CLASSES>
+        <JAVADOC />
         <SOURCES>
           <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/3a30dd0d/3a30dd0d/Debug/libs/glfw-3.1.2/src" />
           <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/3a30dd0d/3a30dd0d/MinSizeRel/libs/glfw-3.1.2/src" />

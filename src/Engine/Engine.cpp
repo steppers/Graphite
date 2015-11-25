@@ -4,10 +4,10 @@
 
 #include "Engine.h"
 #include "Managers/EnvironmentManager.h"
-#include "Managers/StateManager.h"
 #include "Managers/InputManager.h"
 #include "Managers/PlatformManager.h"
 #include "Managers/ServiceManager.h"
+#include "Managers/StateManager/StateManager.h"
 
 Logger Engine::_logger;
 
@@ -56,6 +56,7 @@ void Engine::loop() {
         _scheduler.waitForTaskCompletion();
 
         InputManager::getInstance().update();
+        StateManager::getInstance().distributeChanges();
     }
 }
 

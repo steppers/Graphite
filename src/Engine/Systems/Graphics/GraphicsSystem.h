@@ -5,8 +5,8 @@
 #ifndef SSIMCPP_GRAPHICSSYSTEM_H
 #define SSIMCPP_GRAPHICSSYSTEM_H
 
-#include "System.h"
-#include "../../UI/GLPanel.h"
+#include "../System.h"
+#include "../../../UI/GLPanel.h"
 
 class GraphicsSystem : public System {
 public:

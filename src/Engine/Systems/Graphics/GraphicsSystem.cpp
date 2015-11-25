@@ -3,9 +3,8 @@
 //
 
 #include "GraphicsSystem.h"
-
-#include "../Managers/EnvironmentManager.h"
-#include "../Managers/PlatformManager.h"
+#include "../../Managers/PlatformManager.h"
+#include "../../Managers/EnvironmentManager.h"
 #include <math.h>
 
 GraphicsSystem::GraphicsSystem(int width, int height) {

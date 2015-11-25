@@ -1,0 +1,5 @@
+A UScene contains UObjects.
+A UObject can contain more UObjects and UComponents.
+A UComponent can be extended to provide various functions to the object.
+
+A System is passed a scene on initialisation which it uses to produce it's own copy through the shared objects in components.

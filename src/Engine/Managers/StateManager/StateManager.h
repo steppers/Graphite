@@ -5,9 +5,9 @@
 #ifndef SSIMCPP_STATEMANAGER_H
 #define SSIMCPP_STATEMANAGER_H
 
-#include "Manager.h"
+#include "ChangeController.h"
 
-class StateManager : Manager {
+class StateManager : public ChangeController {
 public:
     static StateManager& getInstance(){
         static StateManager instance;

@@ -6,13 +6,15 @@
 #define SSIMCPP_VECTOR2I_H
 
 
-class Vector2i {
+#include "../Engine/Managers/StateManager/ChangeController.h"
+
+class Vector2i : public Observer, public Observable{
 public:
     Vector2i();
     Vector2i(int x, int y);
 
-    Vector2i add(int x, int y);
-    Vector2i add(Vector2i* other);
+    Vector2i* add(int x, int y);
+    Vector2i* add(Vector2i* other);
 
     int getX();
     int getY();
@@ -21,8 +23,18 @@ public:
     void setX(int x);
     void setY(int y);
 
+    void notify(Observable* subject, int changeId);
+
 private:
     int _x, _y;
+
+    void onChange(int changeId);
+
+    enum changeType {
+        X,
+        Y,
+        XY
+    };
 };
 
 
