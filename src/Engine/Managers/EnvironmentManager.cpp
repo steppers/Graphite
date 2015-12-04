@@ -11,3 +11,11 @@ void EnvironmentManager::init(Engine* engine) {
 void EnvironmentManager::stopEngine() {
     _engine->stop();
 }
+
+void EnvironmentManager::setDebugMode(bool enabled) {
+    _DEBUG_MODE = enabled;
+}
+
+bool EnvironmentManager::getDebugMode() {
+    return _DEBUG_MODE;
+}

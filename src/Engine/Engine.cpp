@@ -57,6 +57,10 @@ void Engine::loop() {
 
         InputManager::getInstance().update();
         StateManager::getInstance().distributeChanges();
+
+        if(EnvironmentManager::getInstance().getDebugMode())
+            if(InputManager::getInstance().getInput()->isKeyDown(GLFW_KEY_ESCAPE))
+                stop();
     }
 }
 
@@ -69,5 +73,6 @@ Logger* Engine::getLogger() {
 }
 
 void Engine::debugMode(bool enabled) {
+    EnvironmentManager::getInstance().setDebugMode(enabled);
     _logger.debugEnable(enabled);
 }

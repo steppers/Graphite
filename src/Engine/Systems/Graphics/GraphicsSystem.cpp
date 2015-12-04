@@ -33,7 +33,7 @@ void GraphicsSystem::execute(TaskThread *taskThread) {
 
     //Update the window here.
     _window->update();
-    if(_window->isCloseRequested() || _window->getInput()->isKeyDown(GLFW_KEY_ESCAPE))
+    if(_window->isCloseRequested())
         EnvironmentManager::getInstance().stopEngine();
 
     _window->releaseGLContext();  //Release the GL context

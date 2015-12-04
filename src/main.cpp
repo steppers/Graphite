@@ -3,19 +3,23 @@
 #include "Math/Vector2i.h"
 #include "Engine/Managers/StateManager/StateManager.h"
 #include "Engine/Systems/Graphics/GraphicsSystem.h"
+#include "Engine/Prototyping/Tester.h"
 
 using namespace std;
 
 int main(void) {
-    Engine eng;
+//    Engine eng;
+//
+//    GraphicsSystem* graphicsSystem = new GraphicsSystem(300, 300);
+//    graphicsSystem->setVSync(true);
+//
+//    eng.addSystem(graphicsSystem);
+//
+//    eng.debugMode(true);
+//    eng.start();
 
-    GraphicsSystem* graphicsSystem = new GraphicsSystem(300, 300);
-    graphicsSystem->setVSync(true);
-
-    eng.addSystem(graphicsSystem);
-
-    eng.debugMode(true);
-    eng.start();
+    Tester tester;
+    tester.start();
 
 //    Vector2i v1(3, 5);
 //    Vector2i v2(3, 5);

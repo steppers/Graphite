@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CPP_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+  <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/CMakeLists.txt" isTestSource="false" />
@@ -118,10 +118,10 @@
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/3a30dd0d/3a30dd0d/Debug/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/3a30dd0d/3a30dd0d/MinSizeRel/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/3a30dd0d/3a30dd0d/RelWithDebInfo/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/3a30dd0d/3a30dd0d/Release/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/Debug/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/MinSizeRel/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/RelWithDebInfo/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/Release/libs/glfw-3.1.2/src" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src" />
@@ -130,12 +130,11 @@
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
           <root url="file:///usr/local/include" />
         </CLASSES>
-        <JAVADOC />
         <SOURCES>
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/3a30dd0d/3a30dd0d/Debug/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/3a30dd0d/3a30dd0d/MinSizeRel/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/3a30dd0d/3a30dd0d/RelWithDebInfo/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/3a30dd0d/3a30dd0d/Release/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/Debug/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/MinSizeRel/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/RelWithDebInfo/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/Release/libs/glfw-3.1.2/src" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src" />
@@ -145,36 +144,36 @@
           <root url="file:///usr/local/include" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_platform.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3Config.cmake.in" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_time.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/internal.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/window.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_time.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_window.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/input.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/internal.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_monitor.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_init.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/context.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/window.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/monitor.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw_config.h.in" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3Config.cmake.in" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/context.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/monitor.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_monitor.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_platform.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_init.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/input.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.h" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.c" />
         </excluded>
       </library>
     </orderEntry>

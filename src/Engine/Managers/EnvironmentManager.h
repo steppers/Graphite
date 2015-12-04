@@ -18,6 +18,9 @@ public:
 
     void stopEngine();
 
+    void setDebugMode(bool enabled);
+    bool getDebugMode();
+
 private:
     //Singleton initialisation----------------------------------------------------
     EnvironmentManager(){}  //Keep the constructor and destructor private
@@ -28,6 +31,8 @@ private:
     //----------------------------------------------------------------------------
 
     Engine* _engine;
+
+    bool _DEBUG_MODE = false;
 };
 
 
