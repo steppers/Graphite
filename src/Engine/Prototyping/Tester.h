@@ -5,12 +5,22 @@
 #ifndef R_ENGINE_TESTER_H
 #define R_ENGINE_TESTER_H
 
+#include "../../Util/SThread.h"
+#include "../../Util/BlockingQueue.h"
+#include <iostream>
 
-#include "../Managers/TaskManager/TaskManager.h"
+using namespace std;
+
+class Thread;
+
+class TestTask {
+public:
+    virtual void execute(Thread* taskThread) = 0;
+};
 
 class Thread : public SThread {
 public:
-    Thread(int threadId);
+    Thread(int threadId, BlockingQueue<TestTask*>* queue);
     ~Thread();
 
     int getThreadId();
@@ -23,36 +33,41 @@ private:
     public:
         void run(SThread* thread) {
             while(_running) {
-                if(_task == nullptr)
-                    continue;
-                else {
-                    _task->execute((TaskThread*)thread);
-                }
+                TestTask* task = _queue->take();
+                task->execute((Thread*)thread);
             }
         }
-
-        TestTask* _task;
         void stop(){ _running = false; }
+        void setQueue(BlockingQueue<TestTask*>* queue) { _queue = queue; }
     private:
         bool _running = true;
+        BlockingQueue<TestTask*>* _queue;
     };
 
     TaskRunnable _runnable;
 };
 
-class TestTask {
+class TerminateTask : public TestTask {
 public:
-    virtual void execute(TaskThread* taskThread);
+    void execute(Thread* taskThread) {
+        taskThread->stopThread();
+    }
 };
 
 class GraphicsSys : public TestTask {
 public:
-    void execute(TaskThread* taskThread);
+    int life = 0;
+    void execute(Thread* taskThread){
+        cout << "Life:" << life++ << " [Graphics]" << endl;
+    }
 };
 
 class LoopSys : public TestTask {
 public:
-    void execute(TaskThread* taskThread);
+    int life = 0;
+    void execute(Thread* taskThread) {
+        cout << "Life:" << life++ << " [Game Loop]" << endl;
+    }
 };
 
 class Tester {
@@ -60,13 +75,16 @@ public:
     Tester();
     ~Tester();
 
-    void start();
+    void Start();
 
 private:
-    SThread* threads[];
+    Thread* _threads[2];
+    BlockingQueue<TestTask*> _queue;
 
-    GraphicsSys graphicsSys;
-    LoopSys loopSys;
+    GraphicsSys _graphicsSys;
+    LoopSys _loopSys;
+
+    TerminateTask _terminateTask;
 };
 
 #endif //R_ENGINE_TESTER_H

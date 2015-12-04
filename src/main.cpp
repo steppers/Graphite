@@ -19,7 +19,7 @@ int main(void) {
 //    eng.start();
 
     Tester tester;
-    tester.start();
+    tester.Start();
 
 //    Vector2i v1(3, 5);
 //    Vector2i v2(3, 5);
