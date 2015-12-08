@@ -8,10 +8,33 @@
 #include "../../Util/SThread.h"
 #include "../../Util/BlockingQueue.h"
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 class Thread;
+
+template <typename T>
+class SharedAtom {
+public:
+    SharedAtom(T* val) {
+        _val = val;
+    }
+    T* getCopy() {
+        T* t = new T(*_val);
+        _values.push_back(t);
+        return t;
+    }
+    void sync(T* t)
+    {
+        for(T* tmp : _values)
+            *tmp = *t;
+        *_val = *t;
+    }
+private:
+    T* _val;
+    vector<T*> _values;
+};
 
 class TestTask {
 public:
@@ -56,17 +79,23 @@ public:
 
 class GraphicsSys : public TestTask {
 public:
-    int life = 0;
+    int* _life;
+    GraphicsSys(SharedAtom<int>* life) {
+        _life = life->getCopy();
+    }
     void execute(Thread* taskThread){
-        cout << "Life:" << life++ << " [Graphics]" << endl;
+        cout << "Life:" << *_life << " [Graphics]" << endl;
     }
 };
 
 class LoopSys : public TestTask {
 public:
-    int life = 0;
+    int* _life;
+    LoopSys(SharedAtom<int>* life) {
+        _life = life->getCopy();
+    }
     void execute(Thread* taskThread) {
-        cout << "Life:" << life++ << " [Game Loop]" << endl;
+        cout << "Life:" << (*_life)++ << " [Game Loop]" << endl;
     }
 };
 
@@ -81,10 +110,48 @@ private:
     Thread* _threads[2];
     BlockingQueue<TestTask*> _queue;
 
-    GraphicsSys _graphicsSys;
-    LoopSys _loopSys;
+    SharedAtom<int>* _sharedLife;
+
+    GraphicsSys* _graphicsSys;
+    LoopSys* _loopSys;
 
     TerminateTask _terminateTask;
+
+    void terminateThreads();
 };
+
+//template <typename T>
+//class Change {
+//    Change(SharedAtom<T>* shared, T* value){
+//        _shared = shared;
+//        _val = value;
+//    }
+//    SharedAtom<T>* _shared;
+//    T* _val;
+//};
+//
+//class ChangeManager {
+//public:
+//    ChangeManager(int threads) {
+//        _changeQueues = new vector<Change*>[threads];
+////        for(int i = 0; i < threads; i++) {
+////            _changeQueues[i] = new vector<Change*>;
+////        }
+//    }
+//    void submitChange(Change* c, int threadId) {
+//        _changeQueues[threadId].push_back(c);
+//    }
+//
+//    void distributeChanges() {
+//        for(int i = 0; i < 2; i++) {
+//            for(Change* c : _changeQueues[i]) {
+//                c->_shared->sync(c->_val);
+//            }
+//        }
+//    }
+//
+//private:
+//    vector<Change*>* _changeQueues;
+//};
 
 #endif //R_ENGINE_TESTER_H
