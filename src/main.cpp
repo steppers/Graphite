@@ -4,22 +4,28 @@
 #include "Engine/Managers/StateManager/StateManager.h"
 #include "Engine/Systems/Graphics/GraphicsSystem.h"
 #include "Engine/Prototyping/Tester.h"
+#include "Engine/Systems/Script/ScriptSystem.h"
+
+#define _DEBUG_
 
 using namespace std;
 
 int main(void) {
-//    Engine eng;
-//
-//    GraphicsSystem* graphicsSystem = new GraphicsSystem(300, 300);
-//    graphicsSystem->setVSync(true);
-//
-//    eng.addSystem(graphicsSystem);
-//
-//    eng.debugMode(true);
-//    eng.start();
+    Engine eng;
 
-    Tester tester;
-    tester.Start();
+    GraphicsSystem* graphicsSystem = new GraphicsSystem(300, 300);
+    graphicsSystem->setVSync(true);
+
+    ScriptSystem* scriptSystem = new ScriptSystem();
+
+    eng.addSystem(graphicsSystem);
+    eng.addSystem(scriptSystem);
+
+    eng.debugMode(true);
+    eng.start();
+
+//    Tester tester;
+//    tester.Start();
 
 //    Vector2i v1(3, 5);
 //    Vector2i v2(3, 5);

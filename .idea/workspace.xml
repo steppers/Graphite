@@ -4,48 +4,48 @@
     <generated>
       <config projectName="R-Engine" targetName="cursor" />
       <config projectName="R-Engine" targetName="tearing" />
+      <config projectName="SSimCpp" targetName="sharing" />
       <config projectName="R-Engine" targetName="threads" />
-      <config projectName="R-Engine" targetName="clipboard" />
       <config projectName="SSimCpp" targetName="title" />
-      <config projectName="R-Engine" targetName="glfw" />
       <config projectName="SSimCpp" targetName="reopen" />
       <config projectName="SSimCpp" targetName="monitors" />
-      <config projectName="SSimCpp" targetName="clipboard" />
-      <config projectName="R-Engine" targetName="monitors" />
-      <config projectName="SSimCpp" targetName="glfw" />
+      <config projectName="SSimCpp" targetName="boing" />
+      <config projectName="SSimCpp" targetName="gamma" />
+      <config projectName="R-Engine" targetName="glfw" />
       <config projectName="R-Engine" targetName="reopen" />
       <config projectName="R-Engine" targetName="events" />
       <config projectName="R-Engine" targetName="sharing" />
-      <config projectName="SSimCpp" targetName="glfwinfo" />
+      <config projectName="R-Engine" targetName="monitors" />
       <config projectName="R-Engine" targetName="gamma" />
       <config projectName="SSimCpp" targetName="iconify" />
       <config projectName="R-Engine" targetName="joysticks" />
-      <config projectName="SSimCpp" targetName="boing" />
+      <config projectName="SSimCpp" targetName="windows" />
       <config projectName="SSimCpp" targetName="empty" />
       <config projectName="SSimCpp" targetName="uninstall" />
-      <config projectName="SSimCpp" targetName="windows" />
-      <config projectName="SSimCpp" targetName="sharing" />
-      <config projectName="SSimCpp" targetName="wave" />
+      <config projectName="R-Engine" targetName="windows" />
+      <config projectName="SSimCpp" targetName="glfw" />
       <config projectName="R-Engine" targetName="title" />
-      <config projectName="R-Engine" targetName="R-Engine" />
+      <config projectName="R-Engine" targetName="glfwinfo" />
       <config projectName="SSimCpp" targetName="SSimCpp" />
       <config projectName="SSimCpp" targetName="tearing" />
       <config projectName="R-Engine" targetName="iconify" />
       <config projectName="SSimCpp" targetName="threads" />
-      <config projectName="R-Engine" targetName="windows" />
+      <config projectName="R-Engine" targetName="clipboard" />
       <config projectName="R-Engine" targetName="msaa" />
+      <config projectName="R-Engine" targetName="R-Engine" />
       <config projectName="R-Engine" targetName="uninstall" />
       <config projectName="SSimCpp" targetName="SSim" />
       <config projectName="SSimCpp" targetName="splitview" />
       <config projectName="SSimCpp" targetName="gears" />
-      <config projectName="R-Engine" targetName="glfwinfo" />
+      <config projectName="SSimCpp" targetName="clipboard" />
       <config projectName="R-Engine" targetName="empty" />
       <config projectName="SSimCpp" targetName="cursor" />
       <config projectName="SSimCpp" targetName="heightmap" />
-      <config projectName="SSimCpp" targetName="gamma" />
       <config projectName="SSimCpp" targetName="events" />
+      <config projectName="SSimCpp" targetName="wave" />
       <config projectName="SSimCpp" targetName="msaa" />
       <config projectName="SSimCpp" targetName="particles" />
+      <config projectName="SSimCpp" targetName="glfwinfo" />
       <config projectName="SSim" targetName="SSim" />
       <config projectName="SSimCpp" targetName="simple" />
       <config projectName="SSimCpp" targetName="joysticks" />
@@ -58,9 +58,166 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c468c19-c7f1-48e3-af6d-622fb1c59836" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/SceneManager.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Managers/SceneManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Systems/Script/ScriptSystem.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine/Systems/Script/ScriptSystem.h" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/R-Engine.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/R-Engine-2015.iml" afterPath="$PROJECT_DIR$/.idea/R-Engine-2015.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeIdeas.txt" afterPath="$PROJECT_DIR$/codeIdeas.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ideas.txt" afterPath="$PROJECT_DIR$/ideas.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/CMakeLists.txt" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/COPYING.txt" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/COPYING.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/cmake_uninstall.cmake.in" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/cmake_uninstall.cmake.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/EGL/eglext.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/EGL/eglext.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/GL/glext.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/GL/glext.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/GL/glxext.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/GL/glxext.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/GL/wglext.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/GL/wglext.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/KHR/khrplatform.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/KHR/khrplatform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/getopt.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/getopt.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/getopt.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/getopt.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/glad.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/glad.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/glad/glad.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/glad/glad.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/linmath.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/linmath.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/cocoa_init.m" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/cocoa_init.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/cocoa_monitor.m" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/cocoa_monitor.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/cocoa_platform.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/cocoa_platform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/cocoa_window.m" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/cocoa_window.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/context.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/context.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/egl_context.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/egl_context.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/egl_context.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/egl_context.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glfw3Config.cmake.in" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glfw3Config.cmake.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glfw_config.h.in" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glfw_config.h.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glx_context.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glx_context.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glx_context.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/glx_context.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/init.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/init.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/input.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/input.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/internal.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/internal.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/iokit_joystick.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/iokit_joystick.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/iokit_joystick.m" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/iokit_joystick.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/linux_joystick.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/linux_joystick.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/linux_joystick.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/linux_joystick.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mach_time.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mach_time.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mir_init.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mir_init.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mir_monitor.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mir_monitor.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mir_platform.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mir_platform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mir_window.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/mir_window.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/monitor.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/monitor.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/nsgl_context.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/nsgl_context.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/nsgl_context.m" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/nsgl_context.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/posix_time.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/posix_time.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/posix_time.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/posix_time.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/posix_tls.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/posix_tls.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/posix_tls.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/posix_tls.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wgl_context.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wgl_context.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wgl_context.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wgl_context.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_init.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_init.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_monitor.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_monitor.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_platform.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_platform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_time.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_time.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_tls.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_tls.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_tls.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_tls.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_window.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/win32_window.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/window.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/window.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/winmm_joystick.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/winmm_joystick.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/winmm_joystick.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/winmm_joystick.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wl_init.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wl_init.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wl_monitor.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wl_monitor.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wl_platform.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wl_platform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wl_window.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/wl_window.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/x11_init.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/x11_init.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/x11_monitor.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/x11_monitor.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/x11_platform.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/x11_platform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/x11_window.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/x11_window.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/xkb_unicode.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/xkb_unicode.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/src/xkb_unicode.h" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/src/xkb_unicode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/CMakeLists.txt" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/clipboard.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/clipboard.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/cursor.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/cursor.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/empty.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/empty.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/events.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/events.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/gamma.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/gamma.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/glfwinfo.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/glfwinfo.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/iconify.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/iconify.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/joysticks.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/joysticks.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/monitors.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/monitors.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/msaa.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/msaa.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/reopen.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/reopen.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/sharing.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/sharing.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/tearing.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/tearing.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/threads.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/threads.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/title.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/title.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/windows.c" afterPath="$PROJECT_DIR$/libs/glfw-3.1.2/tests/windows.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Engine.cpp" afterPath="$PROJECT_DIR$/src/Engine/Engine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Engine.h" afterPath="$PROJECT_DIR$/src/Engine/Engine.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Framework/Debug/Logger.cpp" afterPath="$PROJECT_DIR$/src/Engine/Framework/Debug/Logger.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Framework/Debug/Logger.h" afterPath="$PROJECT_DIR$/src/Engine/Framework/Debug/Logger.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Framework/Scheduler.cpp" afterPath="$PROJECT_DIR$/src/Engine/Framework/Scheduler.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Framework/Scheduler.h" afterPath="$PROJECT_DIR$/src/Engine/Framework/Scheduler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Framework/UComponent.cpp" afterPath="$PROJECT_DIR$/src/Engine/Framework/UComponent.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Framework/UComponent.h" afterPath="$PROJECT_DIR$/src/Engine/Framework/UComponent.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Framework/UObject.cpp" afterPath="$PROJECT_DIR$/src/Engine/Framework/UObject.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Framework/UObject.h" afterPath="$PROJECT_DIR$/src/Engine/Framework/UObject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Framework/UScene.cpp" afterPath="$PROJECT_DIR$/src/Engine/Framework/UScene.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Framework/UScene.h" afterPath="$PROJECT_DIR$/src/Engine/Framework/UScene.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.cpp" afterPath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/InputManager.cpp" afterPath="$PROJECT_DIR$/src/Engine/Managers/InputManager.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/InputManager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/InputManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/Manager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/Manager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.cpp" afterPath="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/ServiceManager.cpp" afterPath="$PROJECT_DIR$/src/Engine/Managers/ServiceManager.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/ServiceManager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/ServiceManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/StateManager/ChangeController.cpp" afterPath="$PROJECT_DIR$/src/Engine/Managers/StateManager/ChangeController.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/StateManager/ChangeController.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/StateManager/ChangeController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/StateManager/StateManager.cpp" afterPath="$PROJECT_DIR$/src/Engine/Managers/StateManager/StateManager.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/StateManager/StateManager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/StateManager/StateManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/Task.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/Task.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.cpp" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskThread.cpp" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskThread.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskThread.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskThread.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TerminateTask.cpp" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TerminateTask.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TerminateTask.h" afterPath="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TerminateTask.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Prototyping/Tester.cpp" afterPath="$PROJECT_DIR$/src/Engine/Prototyping/Tester.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Prototyping/Tester.h" afterPath="$PROJECT_DIR$/src/Engine/Prototyping/Tester.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsObject.cpp" afterPath="$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsObject.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsObject.h" afterPath="$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsObject.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.cpp" afterPath="$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.h" afterPath="$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engine/Systems/System.h" afterPath="$PROJECT_DIR$/src/Engine/Systems/System.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Math/Vector2i.cpp" afterPath="$PROJECT_DIR$/src/Math/Vector2i.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Math/Vector2i.h" afterPath="$PROJECT_DIR$/src/Math/Vector2i.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/GLPanel.cpp" afterPath="$PROJECT_DIR$/src/UI/GLPanel.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/GLPanel.h" afterPath="$PROJECT_DIR$/src/UI/GLPanel.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/Input.cpp" afterPath="$PROJECT_DIR$/src/UI/Input.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/Input.h" afterPath="$PROJECT_DIR$/src/UI/Input.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/Windows/PCWindow.cpp" afterPath="$PROJECT_DIR$/src/UI/Windows/PCWindow.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/Windows/PCWindow.h" afterPath="$PROJECT_DIR$/src/UI/Windows/PCWindow.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Util/BlockingQueue.h" afterPath="$PROJECT_DIR$/src/Util/BlockingQueue.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Util/SThread.h" afterPath="$PROJECT_DIR$/src/Util/SThread.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Util/Timer.cpp" afterPath="$PROJECT_DIR$/src/Util/Timer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Util/Timer.h" afterPath="$PROJECT_DIR$/src/Util/Timer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
     </list>
     <ignored path="SSimCpp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,12 +238,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="codeIdeas.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codeIdeas.txt">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="125" selection-start-line="4" selection-start-column="125" selection-end-line="4" selection-end-column="125" />
-              <folding />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,7 +254,7 @@
         <entry file="file://$PROJECT_DIR$/src/Engine/Engine.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
                 <element signature="e#43#62#0" expanded="true" />
               </folding>
@@ -103,21 +262,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <file leaf-file-name="Engine.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Engine/Engine.h">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+              <folding>
+                <element signature="e#94#121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnvironmentManager.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tester.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnvironmentManager.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SceneManager.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Engine/Managers/SceneManager.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SceneManager.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Engine/Managers/SceneManager.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.094936706">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScriptSystem.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Engine/Systems/Script/ScriptSystem.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tester.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Engine/Prototyping/Tester.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17787743">
-              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#96#127#0" expanded="true" />
                 <element signature="e#251#263#0" expanded="true" />
@@ -136,26 +347,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockingQueue.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Util/BlockingQueue.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphicsSystem.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -169,10 +360,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Engine/Framework/Debug/Logger.cpp" />
-        <option value="$PROJECT_DIR$/src/Engine/Framework/Debug/Logger.h" />
-        <option value="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.h" />
-        <option value="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskThread.cpp" />
         <option value="$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskManager.cpp" />
         <option value="$PROJECT_DIR$/src/UI/Input.h" />
         <option value="$PROJECT_DIR$/src/UI/Input.cpp" />
@@ -212,14 +399,18 @@
         <option value="$PROJECT_DIR$/src/Engine/Prototyping/pUScene.h" />
         <option value="$PROJECT_DIR$/codeIdeas.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h" />
-        <option value="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.cpp" />
         <option value="$PROJECT_DIR$/src/Engine/Engine.cpp" />
         <option value="$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.cpp" />
         <option value="$PROJECT_DIR$/src/Util/SThread.h" />
-        <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/src/Engine/Prototyping/Tester.cpp" />
         <option value="$PROJECT_DIR$/src/Engine/Prototyping/Tester.h" />
+        <option value="$PROJECT_DIR$/src/Engine/Systems/Script/ScriptSystem.cpp" />
+        <option value="$PROJECT_DIR$/src/Engine/Systems/Script/ScriptSystem.h" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/Engine/Systems/System.h" />
+        <option value="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h" />
+        <option value="$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.cpp" />
+        <option value="$PROJECT_DIR$/src/Engine/Managers/SceneManager.h" />
       </list>
     </option>
   </component>
@@ -229,10 +420,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="30" />
-    <option name="width" value="1922" />
-    <option name="height" value="1051" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="2495" />
+    <option name="height" value="1444" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -279,27 +470,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine-2015" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine-2015" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -309,11 +500,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine-2015" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -327,11 +518,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine-2015" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -345,11 +536,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine-2015" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -357,35 +548,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Math" />
+              <option name="myItemId" value="UI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Windows" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine-2015" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine-2015" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -396,18 +573,88 @@
               <option name="myItemId" value="Engine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Prototyping" />
+              <option name="myItemId" value="Graphite" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Graphite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Systems" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine-2015" />
+              <option name="myItemId" value="Graphite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Systems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Graphite" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Graphite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Systems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Graphite" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -425,11 +672,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="R-Engine-2015" />
+              <option name="myItemId" value="Graphite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -441,11 +688,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Managers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TaskManager" />
+              <option name="myItemId" value="Framework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -460,6 +703,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -656,20 +900,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="30" width="1922" height="1051" extended-state="6" />
+    <frame x="65" y="-4" width="2495" height="1444" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.128125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12264529" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33263597" sideWeight="0.48125" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3323398" sideWeight="0.48125" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32635984" sideWeight="0.49375" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25209206" sideWeight="0.61354166" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27196652" sideWeight="0.38645834" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27123696" sideWeight="0.38645834" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2991632" sideWeight="0.43300653" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29880774" sideWeight="0.43300653" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -706,55 +950,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="74" />
+      <option name="time" value="75" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codeIdeas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Engine.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
-          <folding>
-            <element signature="e#43#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Prototyping/Tester.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
-          <folding>
-            <element signature="e#96#127#0" expanded="true" />
-            <element signature="e#251#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/glfw-3.1.2/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22580644">
-          <caret line="508" column="0" selection-start-line="508" selection-start-column="0" selection-end-line="508" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/Input.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.123726346">
@@ -769,13 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/InputManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="18" selection-start-line="12" selection-start-column="4" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/GLPanel.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49709302">
@@ -783,31 +976,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/InputManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15697674">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/PlatformManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/Windows/PCWindow.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Windows/PCWindow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -836,20 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49709302">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39912918">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Engine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -916,27 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Framework/UObject.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52249634">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Framework/UScene.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10449927">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Framework/UScene.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2539913">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Engine/Framework/UComponent.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -958,63 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15500538">
-          <caret line="8" column="1733" selection-start-line="8" selection-start-column="1733" selection-end-line="8" selection-end-column="1733" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71001494">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59641254">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeIdeas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="125" selection-start-line="4" selection-start-column="125" selection-end-line="4" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6233184">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Systems/System.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2690583">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Engine.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
-          <folding>
-            <element signature="e#43#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Engine/Managers/TaskManager/TaskThread.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1027,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,33 +1124,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.15189873">
+          <caret line="8" column="1733" selection-start-line="8" selection-start-column="1733" selection-end-line="8" selection-end-column="1733" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+    <entry file="file://$PROJECT_DIR$/codeIdeas.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="4" column="125" selection-start-line="4" selection-start-column="125" selection-end-line="4" selection-end-column="125" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Util/SThread.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19282511">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.39517015">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Util/BlockingQueue.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.69154775">
           <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding />
         </state>
@@ -1085,14 +1164,190 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/InputManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11392405">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/InputManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18987341">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Windows/PCWindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Framework/Scheduler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/PlatformManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30379745">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/PlatformManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18987341">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Framework/UScene.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1329114">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Framework/UObject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34177214">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Framework/UScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07594936">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17088607">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="24" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Engine/Prototyping/Tester.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17787743">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="e#96#127#0" expanded="true" />
             <element signature="e#251#263#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Systems/Script/ScriptSystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24683544">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#107#129#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Systems/System.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20886075">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Systems/Script/ScriptSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Engine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#43#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Engine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="e#94#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/EnvironmentManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/SceneManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine/Managers/SceneManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.094936706">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

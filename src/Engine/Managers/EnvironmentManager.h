@@ -30,7 +30,7 @@ private:
     void operator=(EnvironmentManager const&) = delete;
     //----------------------------------------------------------------------------
 
-    Engine* _engine;
+    Engine* _engine = nullptr;
 
     bool _DEBUG_MODE = false;
 };

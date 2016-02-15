@@ -2,170 +2,147 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/cmake_uninstall.cmake.in" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/context.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3Config.cmake.in" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw_config.h.in" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/input.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/internal.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/monitor.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_time.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_time.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/window.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_init.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_monitor.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_platform.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_window.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/clipboard.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/cursor.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/empty.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/events.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/gamma.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/glfwinfo.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/iconify.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/joysticks.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/monitors.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/msaa.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/reopen.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/sharing.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/tearing.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/threads.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/title.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/windows.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Engine.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Engine.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Debug/Logger.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Debug/Logger.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Scheduler.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Scheduler.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UComponent.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UComponent.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UObject.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UScene.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UScene.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/EnvironmentManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/UI/Input.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/UI/GLPanel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/UI/Windows/PCWindow.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/UI/Windows/PCWindow.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/UI/GLPanel.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/UI/Input.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Util/SThread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Util/Timer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Util/Timer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Util/BlockingQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Math/Vector2i.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Math/Vector2i.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/EnvironmentManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/InputManager.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/InputManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/Manager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/PlatformManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/SceneManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/SceneManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/PlatformManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/ServiceManager.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/ServiceManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/InputManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/Manager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/EnvironmentManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager/StateManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager/ChangeController.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager/ChangeController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager/StateManager.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/StateManager/StateManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/Task.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskManager.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskThread.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskThread.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TerminateTask.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TerminateTask.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/Tester.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/Tester.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsObject.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskThread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskThread.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TerminateTask.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/TaskManager/TaskManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/PlatformManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/ServiceManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/InputManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/ServiceManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Engine.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Script/ScriptSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Script/ScriptSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/System.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsObject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsObject.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/System.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Math/Vector2i.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Math/Vector2i.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/UI/GLPanel.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/UI/GLPanel.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/UI/Input.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/UI/Input.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/UI/Windows/PCWindow.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/UI/Windows/PCWindow.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Util/BlockingQueue.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Util/SThread.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Util/Timer.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Util/Timer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Debug/Logger.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Debug/Logger.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UComponent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UObject.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Scheduler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UScene.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Scheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UScene.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UComponent.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Engine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/Tester.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/Tester.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw_config.h.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_monitor.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/internal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_init.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_window.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_platform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_time.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_time.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/context.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/window.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/monitor.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3Config.cmake.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/input.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/cmake_uninstall.cmake.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/cursor.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/title.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/empty.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/tearing.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/reopen.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/iconify.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/clipboard.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/events.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/monitors.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/threads.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/windows.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/msaa.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/gamma.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/joysticks.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/glfwinfo.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/sharing.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/Debug/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/MinSizeRel/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/RelWithDebInfo/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/Release/libs/glfw-3.1.2/src" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src" />
           <root url="file:///usr/include" />
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
           <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/Release/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/Debug/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/RelWithDebInfo/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/MinSizeRel/libs/glfw-3.1.2/src" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/Debug/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/MinSizeRel/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/RelWithDebInfo/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/a82dd109/a82dd109/Release/libs/glfw-3.1.2/src" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src" />
           <root url="file:///usr/include" />
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
           <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/Release/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/Debug/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/RelWithDebInfo/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/MinSizeRel/libs/glfw-3.1.2/src" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include" />
         </SOURCES>
         <excluded>
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.c" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_time.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/internal.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/window.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/CMakeLists.txt" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_time.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_window.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw_config.h.in" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_monitor.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3Config.cmake.in" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/context.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/monitor.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_platform.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/x11_init.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glx_context.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/input.c" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.h" />
-          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.c" />
+          <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" />
         </excluded>
       </library>
     </orderEntry>
