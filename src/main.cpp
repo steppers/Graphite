@@ -25,7 +25,7 @@ int main(void) {
     eng.start();
 
 //    Tester tester;
-//    tester.Start();
+//    tester.start();
 
 //    Vector2i v1(3, 5);
 //    Vector2i v2(3, 5);

@@ -16,9 +16,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Math/Vector2i.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Math/Vector2i.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/EnvironmentManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/PlatformManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/SceneManager.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/SceneManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/PlatformManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/ServiceManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/InputManager.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/Manager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/EnvironmentManager.cpp" isTestSource="false" />
@@ -36,14 +37,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/PlatformManager.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/ServiceManager.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/InputManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Managers/ServiceManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Engine.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Script/ScriptSystem.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Script/ScriptSystem.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/System.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsObject.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Systems/Graphics/GraphicsSystem.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Debug/Logger.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/Debug/Logger.h" isTestSource="false" />
@@ -56,10 +56,24 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UScene.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Framework/UComponent.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Engine.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/Tester.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/PLockFreeQueue.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/PScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/PScheduler.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/Tester.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/PWorkerRunnable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/Tester.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/PThread.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/PLockFreeQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/PRunnable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/PWorkerRunnable.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/PThread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Engine/Prototyping/PTask.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw_config.h.in" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/init.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/linux_joystick.h" isTestSource="false" />
@@ -84,30 +98,26 @@
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/posix_tls.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/glfw3.pc.in" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/src/xkb_unicode.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/tinycthread.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps/getopt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/cmake_uninstall.cmake.in" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/cursor.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/glfwinfo.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/title.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/empty.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/tearing.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/reopen.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/iconify.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/clipboard.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/windows.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/events.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/cursor.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/monitors.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/threads.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/windows.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/joysticks.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/clipboard.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/msaa.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/gamma.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/joysticks.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/glfwinfo.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/sharing.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/tests/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3native.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/include/GLFW/glfw3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/glfw-3.1.2/cmake_uninstall.cmake.in" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
@@ -117,10 +127,10 @@
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
           <root url="file:///usr/local/include" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/Release/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/Debug/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/RelWithDebInfo/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/MinSizeRel/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/493901b5/493901b5/Release/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/493901b5/493901b5/Debug/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/493901b5/493901b5/RelWithDebInfo/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/493901b5/493901b5/MinSizeRel/libs/glfw-3.1.2/src" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include" />
         </CLASSES>
@@ -129,10 +139,10 @@
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
           <root url="file:///usr/local/include" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/Release/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/Debug/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/RelWithDebInfo/libs/glfw-3.1.2/src" />
-          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/31afac3d/31afac3d/MinSizeRel/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/493901b5/493901b5/Release/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/493901b5/493901b5/Debug/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/493901b5/493901b5/RelWithDebInfo/libs/glfw-3.1.2/src" />
+          <root url="file://$USER_HOME$/.CLion12/system/cmake/generated/493901b5/493901b5/MinSizeRel/libs/glfw-3.1.2/src" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/deps" />
           <root url="file://$MODULE_DIR$/libs/glfw-3.1.2/include" />
         </SOURCES>

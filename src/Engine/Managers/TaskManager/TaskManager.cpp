@@ -9,7 +9,8 @@ TaskManager::TaskManager() { }
 TaskManager::~TaskManager() { }
 
 void TaskManager::init() {
-    int numCores = thread::hardware_concurrency();
+    int numCores = 1;
+//    int numCores = thread::hardware_concurrency();
     for(int i = 0; i < numCores; i++)
     {
         _threads.push_back(new TaskThread(i, this));
